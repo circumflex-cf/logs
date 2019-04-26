@@ -1,0 +1,3147 @@
+[  1%] Built target mdrun_test_objlib
+[  1%] Built target gmock
+[  2%] Built target clFFT
+[  3%] Built target fftwBuild
+[ 18%] Built target libgromacs_external
+[ 20%] Built target tng_io_obj
+[ 20%] Built target lmfit_objlib
+[ 20%] Built target tng_io_zlib
+[ 37%] Built target libgromacs_generated
+[ 85%] Built target libgromacs
+Scanning dependencies of target testutils
+[ 85%] Building CXX object src/testutils/CMakeFiles/testutils.dir/mpi-printer.cpp.o
+[ 85%] Building CXX object src/testutils/CMakeFiles/testutils.dir/mpitest.cpp.o
+[ 85%] Linking CXX static library ../../lib/libtestutils.a
+[ 86%] Built target testutils
+[ 86%] Built target mdrun_objlib
+Scanning dependencies of target mdrun-non-integrator-test
+[ 86%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-non-integrator-test.dir/minimize.cpp.o
+[ 86%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-non-integrator-test.dir/rerun.cpp.o
+[ 86%] Linking CXX executable ../../../../bin/mdrun-non-integrator-test
+[ 86%] Built target mdrun-non-integrator-test
+[ 86%] Linking CXX executable ../../../bin/testutils-test
+[ 86%] Built target testutils-test
+Scanning dependencies of target testutils-mpi-test
+[ 86%] Building CXX object src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/mpitest.cpp.o
+[ 86%] Linking CXX executable ../../../bin/testutils-mpi-test
+[ 86%] Built target testutils-mpi-test
+[ 86%] Linking CXX executable ../../../../bin/mdlib-test
+[ 87%] Built target mdlib-test
+Scanning dependencies of target applied-forces-test
+[ 87%] Building CXX object src/gromacs/applied-forces/tests/CMakeFiles/applied-forces-test.dir/electricfield.cpp.o
+[ 87%] Linking CXX executable ../../../../bin/applied-forces-test
+[ 87%] Built target applied-forces-test
+[ 87%] Linking CXX executable ../../../../bin/listed-forces-test
+[ 88%] Built target listed-forces-test
+[ 88%] Built target onlinehelp-test-shared
+Scanning dependencies of target commandline-test
+[ 88%] Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.o
+[ 88%] Linking CXX executable ../../../../bin/commandline-test
+[ 88%] Built target commandline-test
+[ 88%] Linking CXX executable ../../../../bin/domdec-test
+[ 88%] Built target domdec-test
+Scanning dependencies of target ewald-test
+[ 88%] Building CXX object src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmebsplinetest.cpp.o
+[ 88%] Building CXX object src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmegathertest.cpp.o
+[ 88%] Building CXX object src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesolvetest.cpp.o
+[ 88%] Building CXX object src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesplinespreadtest.cpp.o
+[ 88%] Building CXX object src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmetestcommon.cpp.o
+[ 88%] Building CXX object src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/testhardwarecontexts.cpp.o
+[ 88%] Linking CXX executable ../../../../bin/ewald-test
+[ 88%] Built target ewald-test
+Scanning dependencies of target fft-test
+[ 88%] Building CXX object src/gromacs/fft/tests/CMakeFiles/fft-test.dir/fft.cpp.o
+[ 88%] Linking CXX executable ../../../../bin/fft-test
+[ 88%] Built target fft-test
+Scanning dependencies of target gpu_utils-test
+[ 88%] Building CXX object src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/gputest.cpp.o
+[ 88%] Building CXX object src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/hostallocator.cpp.o
+[ 88%] Building CXX object src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/devicetransfers_ocl.cpp.o
+[ 89%] Linking CXX executable ../../../../bin/gpu_utils-test
+[ 89%] Built target gpu_utils-test
+Scanning dependencies of target hardware-test
+[ 89%] Building CXX object src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/cpuinfo.cpp.o
+[ 89%] Building CXX object src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/hardwaretopology.cpp.o
+[ 89%] Linking CXX executable ../../../../bin/hardware-test
+[ 89%] Built target hardware-test
+[ 89%] Linking CXX executable ../../../../bin/math-test
+[ 89%] Built target math-test
+Scanning dependencies of target mdrunutility-test-shared
+[ 89%] Building CXX object src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/threadaffinitytest.cpp.o
+[ 89%] Built target mdrunutility-test-shared
+Scanning dependencies of target mdrunutility-test
+[ 89%] Building CXX object src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/threadaffinity.cpp.o
+[ 89%] Linking CXX executable ../../../../bin/mdrunutility-test
+[ 89%] Built target mdrunutility-test
+Scanning dependencies of target mdrunutility-mpi-test
+[ 89%] Building CXX object src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/threadaffinity-mpi.cpp.o
+[ 89%] Linking CXX executable ../../../../bin/mdrunutility-mpi-test
+[ 89%] Built target mdrunutility-mpi-test
+[ 89%] Linking CXX executable ../../../../bin/onlinehelp-test
+[ 90%] Built target onlinehelp-test
+[ 90%] Linking CXX executable ../../../../bin/options-test
+[ 90%] Built target options-test
+[ 90%] Linking CXX executable ../../../../bin/random-test
+[ 90%] Built target random-test
+[ 90%] Linking CXX executable ../../../../bin/restraintpotential-test
+[ 90%] Built target restraintpotential-test
+Scanning dependencies of target table-test
+[ 90%] Building CXX object src/gromacs/tables/tests/CMakeFiles/table-test.dir/splinetable.cpp.o
+[ 90%] Linking CXX executable ../../../../bin/table-test
+[ 90%] Built target table-test
+[ 92%] Linking CXX executable ../../../../bin/taskassignment-test
+[ 92%] Built target taskassignment-test
+Scanning dependencies of target utility-test
+[ 93%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/bitmask32.cpp.o
+[ 93%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/bitmask64.cpp.o
+[ 93%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/bitmask128.cpp.o
+[ 93%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/mutex.cpp.o
+[ 93%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-test.dir/physicalnodecommunicator.cpp.o
+[ 93%] Linking CXX executable ../../../../bin/utility-test
+[ 93%] Built target utility-test
+Scanning dependencies of target utility-mpi-test
+[ 93%] Building CXX object src/gromacs/utility/tests/CMakeFiles/utility-mpi-test.dir/physicalnodecommunicator-mpi.cpp.o
+[ 93%] Linking CXX executable ../../../../bin/utility-mpi-test
+[ 93%] Built target utility-mpi-test
+[ 93%] Linking CXX executable ../../../../bin/fileio-test
+[ 93%] Built target fileio-test
+Scanning dependencies of target pull-test
+[ 93%] Building CXX object src/gromacs/pulling/tests/CMakeFiles/pull-test.dir/pull.cpp.o
+[ 93%] Linking CXX executable ../../../../bin/pull-test
+[ 93%] Built target pull-test
+[ 93%] Linking CXX executable ../../../../bin/awh-test
+[ 93%] Built target awh-test
+Scanning dependencies of target simd-test
+[ 93%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/bootstrap_loadstore.cpp.o
+[ 93%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/base.cpp.o
+[ 93%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd.cpp.o
+[ 93%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_floatingpoint.cpp.o
+[ 93%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_floatingpoint_util.cpp.o
+[ 93%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_vector_operations.cpp.o
+[ 94%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_math.cpp.o
+[ 94%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_memory.cpp.o
+[ 94%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_integer.cpp.o
+[ 94%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4.cpp.o
+[ 94%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4_floatingpoint.cpp.o
+[ 94%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4_vector_operations.cpp.o
+[ 94%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4_math.cpp.o
+[ 94%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/scalar.cpp.o
+[ 94%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/scalar_util.cpp.o
+[ 94%] Building CXX object src/gromacs/simd/tests/CMakeFiles/simd-test.dir/scalar_math.cpp.o
+[ 94%] Linking CXX executable ../../../../bin/simd-test
+[ 94%] Built target simd-test
+[ 94%] Linking CXX executable ../../../../bin/compat-test
+[ 94%] Built target compat-test
+Scanning dependencies of target gmxana-test
+[ 94%] Building CXX object src/gromacs/gmxana/tests/CMakeFiles/gmxana-test.dir/gmx_traj.cpp.o
+[ 94%] Building CXX object src/gromacs/gmxana/tests/CMakeFiles/gmxana-test.dir/gmx_trjconv.cpp.o
+[ 94%] Linking CXX executable ../../../../bin/gmxana-test
+[ 94%] Built target gmxana-test
+[ 95%] Linking CXX executable ../../../../bin/pdb2gmx-test
+[ 95%] Built target pdb2gmx-test
+[ 95%] Linking CXX executable ../../../../bin/gmxpreprocess-test
+[ 95%] Built target gmxpreprocess-test
+Scanning dependencies of target correlations-test
+[ 95%] Building CXX object src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/expfit.cpp.o
+[ 95%] Linking CXX executable ../../../../bin/correlations-test
+[ 96%] Built target correlations-test
+[ 96%] Built target analysisdata-test-shared
+[ 96%] Linking CXX executable ../../../../bin/analysisdata-test
+[ 96%] Built target analysisdata-test
+[ 96%] Linking CXX executable ../../../../bin/selection-test
+[ 96%] Built target selection-test
+[ 96%] Linking CXX executable ../../../../bin/trajectoryanalysis-test
+[ 97%] Built target trajectoryanalysis-test
+[ 97%] Linking CXX executable ../../../../bin/energyanalysis-test
+[ 97%] Built target energyanalysis-test
+[ 97%] Linking CXX executable ../../../../bin/tool-test
+[ 97%] Built target tool-test
+[ 97%] Linking CXX executable ../../../../bin/legacy-mdrun-test
+[ 97%] Built target legacy-mdrun-test
+Scanning dependencies of target mdrun-test
+[ 97%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-test.dir/pmetest.cpp.o
+[ 97%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-test.dir/trajectory_writing.cpp.o
+[ 97%] Linking CXX executable ../../../../bin/mdrun-test
+[ 98%] Built target mdrun-test
+Scanning dependencies of target mdrun-mpi-test
+[ 98%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-mpi-test.dir/minimize.cpp.o
+[ 98%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-mpi-test.dir/multisim.cpp.o
+[ 98%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-mpi-test.dir/pmetest.cpp.o
+[ 98%] Building CXX object src/programs/mdrun/tests/CMakeFiles/mdrun-mpi-test.dir/replicaexchange.cpp.o
+[ 98%] Linking CXX executable ../../../../bin/mdrun-mpi-test
+[ 98%] Built target mdrun-mpi-test
+Scanning dependencies of target tests
+[ 98%] Built target tests
+Scanning dependencies of target run-ctest-nophys
+[100%] Running all tests except physical validation
+Test project /home/madhu/gromacs/gromacs-2019.1/build
+      Start  1: TestUtilsUnitTests
+ 1/40 Test  #1: TestUtilsUnitTests ...............   Passed    0.77 sec
+      Start  2: TestUtilsMpiUnitTests
+ 2/40 Test  #2: TestUtilsMpiUnitTests ............   Passed    0.77 sec
+      Start  3: MdlibUnitTest
+ 3/40 Test  #3: MdlibUnitTest ....................   Passed    0.75 sec
+      Start  4: AppliedForcesUnitTest
+ 4/40 Test  #4: AppliedForcesUnitTest ............   Passed    0.74 sec
+      Start  5: ListedForcesTest
+ 5/40 Test  #5: ListedForcesTest .................   Passed    0.75 sec
+      Start  6: CommandLineUnitTests
+ 6/40 Test  #6: CommandLineUnitTests .............   Passed    0.74 sec
+      Start  7: DomDecTests
+ 7/40 Test  #7: DomDecTests ......................   Passed    0.75 sec
+      Start  8: EwaldUnitTests
+ 8/40 Test  #8: EwaldUnitTests ...................   Passed    1.69 sec
+      Start  9: FFTUnitTests
+ 9/40 Test  #9: FFTUnitTests .....................   Passed    0.86 sec
+      Start 10: GpuUtilsUnitTests
+10/40 Test #10: GpuUtilsUnitTests ................   Passed    8.73 sec
+      Start 11: HardwareUnitTests
+11/40 Test #11: HardwareUnitTests ................   Passed    0.73 sec
+      Start 12: MathUnitTests
+12/40 Test #12: MathUnitTests ....................   Passed    0.75 sec
+      Start 13: MdrunUtilityUnitTests
+13/40 Test #13: MdrunUtilityUnitTests ............   Passed    0.75 sec
+      Start 14: MdrunUtilityMpiUnitTests
+14/40 Test #14: MdrunUtilityMpiUnitTests .........   Passed    0.79 sec
+      Start 15: OnlineHelpUnitTests
+15/40 Test #15: OnlineHelpUnitTests ..............   Passed    0.75 sec
+      Start 16: OptionsUnitTests
+16/40 Test #16: OptionsUnitTests .................   Passed    0.75 sec
+      Start 17: RandomUnitTests
+17/40 Test #17: RandomUnitTests ..................   Passed    0.78 sec
+      Start 18: RestraintTests
+18/40 Test #18: RestraintTests ...................   Passed    0.73 sec
+      Start 19: TableUnitTests
+19/40 Test #19: TableUnitTests ...................   Passed    0.96 sec
+      Start 20: TaskAssignmentUnitTests
+20/40 Test #20: TaskAssignmentUnitTests ..........   Passed    0.74 sec
+      Start 21: UtilityUnitTests
+21/40 Test #21: UtilityUnitTests .................   Passed    0.76 sec
+      Start 22: UtilityMpiUnitTests
+22/40 Test #22: UtilityMpiUnitTests ..............   Passed    0.78 sec
+      Start 23: FileIOTests
+23/40 Test #23: FileIOTests ......................   Passed    0.75 sec
+      Start 24: PullTest
+24/40 Test #24: PullTest .........................   Passed    0.74 sec
+      Start 25: AwhTest
+25/40 Test #25: AwhTest ..........................   Passed    0.74 sec
+      Start 26: SimdUnitTests
+26/40 Test #26: SimdUnitTests ....................   Passed    0.80 sec
+      Start 27: CompatibilityHelpersTests
+27/40 Test #27: CompatibilityHelpersTests ........   Passed    0.75 sec
+      Start 28: GmxAnaTest
+28/40 Test #28: GmxAnaTest .......................   Passed    0.78 sec
+      Start 29: GmxPreprocessTests
+29/40 Test #29: GmxPreprocessTests ...............***Timeout  30.06 sec
+[==========] Running 26 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 4 tests from GenconfTest
+[ RUN      ] GenconfTest.nbox_Works
+[       OK ] GenconfTest.nbox_Works (2 ms)
+[ RUN      ] GenconfTest.nbox_norenumber_Works
+[       OK ] GenconfTest.nbox_norenumber_Works (1 ms)
+[ RUN      ] GenconfTest.nbox_dist_Works
+[       OK ] GenconfTest.nbox_dist_Works (1 ms)
+[ RUN      ] GenconfTest.nbox_rot_Works
+center of geometry: 1.733667, 1.477000, 0.905167
+center of geometry: 1.733667, 1.477000, 0.905167
+center of geometry: 1.733667, 1.477000, 0.905167
+center of geometry: 1.733667, 1.477000, 0.905167
+center of geometry: 1.733667, 1.477000, 0.905167
+center of geometry: 1.733667, 1.477000, 0.905167
+center of geometry: 1.733667, 1.477000, 0.905167
+center of geometry: 1.733667, 1.477000, 0.905167
+center of geometry: 1.733667, 1.477000, 0.905167
+center of geometry: 1.733667, 1.477000, 0.905167
+center of geometry: 1.733667, 1.477000, 0.905167
+center of geometry: 1.733667, 1.477000, 0.905167
+[       OK ] GenconfTest.nbox_rot_Works (1 ms)
+[----------] 4 tests from GenconfTest (5 ms total)
+
+[----------] 5 tests from InsertMoleculesTest
+[ RUN      ] InsertMoleculesTest.InsertsMoleculesIntoExistingConfiguration
+Reading solute configuration
+Initialising inter-atomic distances...
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmxpreprocess-test uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+Using random seed 1997
+Try 1 success (now 8 atoms)!
+
+Added 1 molecules (out of 1 requested)
+Writing generated configuration to /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/InsertMoleculesTest_InsertsMoleculesIntoExistingConfiguration_out.gro
+
+Output configuration contains 8 atoms in 4 residues
+[       OK ] InsertMoleculesTest.InsertsMoleculesIntoExistingConfiguration (3 ms)
+[ RUN      ] InsertMoleculesTest.InsertsMoleculesIntoEmptyBox
+Initialising inter-atomic distances...
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmxpreprocess-test uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+Using random seed 1997
+Try 1 success (now 2 atoms)!
+Try 2 success (now 4 atoms)!
+Try 3 success (now 6 atoms)!
+Try 4 success (now 8 atoms)!
+Try 5 success (now 10 atoms)!
+
+Added 5 molecules (out of 5 requested)
+Writing generated configuration to /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/InsertMoleculesTest_InsertsMoleculesIntoEmptyBox_out.gro
+
+Output configuration contains 10 atoms in 10 residues
+[       OK ] InsertMoleculesTest.InsertsMoleculesIntoEmptyBox (3 ms)
+[ RUN      ] InsertMoleculesTest.InsertsMoleculesIntoEnlargedBox
+Reading solute configuration
+Initialising inter-atomic distances...
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmxpreprocess-test uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+Using random seed 1997
+Try 1 success (now 8 atoms)!
+Try 2 success (now 10 atoms)!
+
+Added 2 molecules (out of 2 requested)
+Writing generated configuration to /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/InsertMoleculesTest_InsertsMoleculesIntoEnlargedBox_out.gro
+
+Output configuration contains 10 atoms in 4 residues
+[       OK ] InsertMoleculesTest.InsertsMoleculesIntoEnlargedBox (2 ms)
+[ RUN      ] InsertMoleculesTest.InsertsMoleculesWithReplacement
+Reading solute configuration
+Initialising inter-atomic distances...
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmxpreprocess-test uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+Using random seed 1997
+Try 1 success (now 650 atoms)!
+Try 2 success (now 652 atoms)!
+Try 3 success (now 654 atoms)!
+Try 4 success (now 656 atoms)!
+
+Added 4 molecules (out of 4 requested)
+Replaced 8 residues (24 atoms)
+Writing generated configuration to /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/InsertMoleculesTest_InsertsMoleculesWithReplacement_out.gro
+
+Output configuration contains 632 atoms in 212 residues
+[       OK ] InsertMoleculesTest.InsertsMoleculesWithReplacement (12 ms)
+[ RUN      ] InsertMoleculesTest.InsertsMoleculesIntoFixedPositions
+Initialising inter-atomic distances...
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmxpreprocess-test uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+Using random seed 1997
+Read 4 positions from file /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/InsertMoleculesTest_InsertsMoleculesIntoFixedPositions_5.dat
+
+Try 1 success (now 2 atoms)!
+Try 2 success (now 4 atoms)!
+Try 3Try 4Try 5Try 6Try 7Try 8Try 9Try 10Try 11Try 12 skipped position (0.990, 2.010, 3.000)
+Try 13 success (now 6 atoms)!
+
+Added 3 molecules (out of 4 requested)
+Writing generated configuration to /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/InsertMoleculesTest_InsertsMoleculesIntoFixedPositions_out.gro
+
+Output configuration contains 6 atoms in 3 residues
+[       OK ] InsertMoleculesTest.InsertsMoleculesIntoFixedPositions (3 ms)
+[----------] 5 tests from InsertMoleculesTest (23 ms total)
+
+[----------] 12 tests from GetIrTest
+[ RUN      ] GetIrTest.HandlesDifferentKindsOfMdpLines
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/GetIrTest_HandlesDifferentKindsOfMdpLines_input.mdp, line 12]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/GetIrTest_HandlesDifferentKindsOfMdpLines_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+Ignoring obsolete mdp entry 'title'
+Replacing old mdp entry 'xtc_grps' by 'compressed-x-grps'
+[       OK ] GetIrTest.HandlesDifferentKindsOfMdpLines (3 ms)
+[ RUN      ] GetIrTest.HandlesOnlyCutoffScheme
+[       OK ] GetIrTest.HandlesOnlyCutoffScheme (4 ms)
+[ RUN      ] GetIrTest.UserErrorsSilentlyTolerated
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/GetIrTest_UserErrorsSilentlyTolerated_input.mdp, line 5]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/GetIrTest_UserErrorsSilentlyTolerated_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+[       OK ] GetIrTest.UserErrorsSilentlyTolerated (3 ms)
+[ RUN      ] GetIrTest.DefineHandlesAssignmentOnRhs
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/GetIrTest_DefineHandlesAssignmentOnRhs_input.mdp, line 2]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/GetIrTest_DefineHandlesAssignmentOnRhs_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+[       OK ] GetIrTest.DefineHandlesAssignmentOnRhs (3 ms)
+[ RUN      ] GetIrTest.EmptyInputWorks
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/GetIrTest_EmptyInputWorks_input.mdp, line 1]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/GetIrTest_EmptyInputWorks_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+[       OK ] GetIrTest.EmptyInputWorks (3 ms)
+[ RUN      ] GetIrTest.ProducesOutputFromElectricField
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/GetIrTest_ProducesOutputFromElectricField_input.mdp, line 2]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/GetIrTest_ProducesOutputFromElectricField_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+[       OK ] GetIrTest.ProducesOutputFromElectricField (2 ms)
+[ RUN      ] GetIrTest.ProducesOutputFromElectricFieldPulsed
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/GetIrTest_ProducesOutputFromElectricFieldPulsed_input.mdp, line 2]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/GetIrTest_ProducesOutputFromElectricFieldPulsed_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+[       OK ] GetIrTest.ProducesOutputFromElectricFieldPulsed (3 ms)
+[ RUN      ] GetIrTest.ProducesOutputFromElectricFieldOscillating
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/GetIrTest_ProducesOutputFromElectricFieldOscillating_input.mdp, line 2]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/GetIrTest_ProducesOutputFromElectricFieldOscillating_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+[       OK ] GetIrTest.ProducesOutputFromElectricFieldOscillating (3 ms)
+[ RUN      ] GetIrTest.TerminatesOnDuplicateOldAndNewKeys
+
+[WARNING] /home/madhu/gromacs/gromacs-2019.1/src/external/googletest/googletest/src/gtest-death-test.cc:836:: Death tests use fork(), which is unsafe particularly in a threaded context. For this test, Google Test detected 3 threads.
+
+      Start 30: Pdb2gmxTest
+30/40 Test #30: Pdb2gmxTest ......................   Passed   10.04 sec
+      Start 31: CorrelationsTest
+31/40 Test #31: CorrelationsTest .................   Passed    1.40 sec
+      Start 32: AnalysisDataUnitTests
+32/40 Test #32: AnalysisDataUnitTests ............   Passed    0.77 sec
+      Start 33: SelectionUnitTests
+33/40 Test #33: SelectionUnitTests ...............   Passed    0.90 sec
+      Start 34: TrajectoryAnalysisUnitTests
+34/40 Test #34: TrajectoryAnalysisUnitTests ......   Passed    1.15 sec
+      Start 35: EnergyAnalysisUnitTests
+35/40 Test #35: EnergyAnalysisUnitTests ..........   Passed    0.93 sec
+      Start 36: ToolUnitTests
+36/40 Test #36: ToolUnitTests ....................   Passed    0.94 sec
+      Start 37: MdrunTests
+37/40 Test #37: MdrunTests .......................***Failed   18.69 sec
+[==========] Running 29 tests from 11 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from GromppTest
+[ RUN      ] GromppTest.EmptyMdpFileWorks
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/GromppTest_EmptyMdpFileWorks_input.mdp, line 1]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/GromppTest_EmptyMdpFileWorks_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/GromppTest_EmptyMdpFileWorks_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Setting the LD random seed to 902009595
+Generated 279 of the 1225 non-bonded parameter combinations
+Excluding 2 bonded neighbours molecule type 'Methanol'
+Excluding 2 bonded neighbours molecule type 'SOL'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group rest is 12.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/GromppTest_EmptyMdpFileWorks_input.mdp]:
+  NVE simulation: will use the initial temperature of 1046.791 K for
+  determining the Verlet buffer size
+
+
+NOTE 4 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/GromppTest_EmptyMdpFileWorks_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 4 notes
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 1046.79 K
+Calculated rlist for 1x1 atom pair-list as 1.061 nm, buffer size 0.061 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.056 nm, buffer size 0.056 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+This run will generate roughly 0 Mb of data
+[       OK ] GromppTest.EmptyMdpFileWorks (31 ms)
+[----------] 1 test from GromppTest (32 ms total)
+
+[----------] 1 test from ImdTest
+[ RUN      ] ImdTest.ImdCanRun
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/ImdTest_ImdCanRun_input.mdp]:
+  The Berendsen thermostat does not generate the correct kinetic energy
+  distribution. You might want to consider using the V-rescale thermostat.
+
+Setting the LD random seed to -1825540377
+Generated 3 of the 3 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 3 of the 3 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+Removing all charge groups because cutoff-scheme=Verlet
+Group 'SecondWaterMolecule' with 3 atoms can be activated for interactive molecular dynamics (IMD).
+Number of degrees of freedom in T-Coupling group System is 9.00
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/ImdTest_ImdCanRun_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 2 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/ImdTest_ImdCanRun.tpr, VERSION 2019.1 (single precision)
+Changing nstlist from 10 to 80, rlist from 1.121 to 1.479
+
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+IMD: Enabled. This simulation will accept incoming IMD connections.
+IMD: You chose a port number < 1. Will automatically assign a free port.
+IMD: Pulling from IMD remote is enabled (-imdpull).
+IMD: Turning on IMD - port for incoming requests is 0.
+IMD: Setting up incoming socket.
+IMD: Listening for IMD connection on port 39600.
+IMD: -imdwait not set, starting simulation.
+starting mdrun 'spc2'
+2 steps,      0.0 ps.
+turning all bonds into constraints...
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+Calculated rlist for 1x1 atom pair-list as 1.134 nm, buffer size 0.134 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.121 nm, buffer size 0.121 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+This run will generate roughly 0 Mb of data
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.399        0.200      199.9
+                 (ns/day)    (hour/ns)
+Performance:        5.195        4.619
+[       OK ] ImdTest.ImdCanRun (2553 ms)
+[----------] 1 test from ImdTest (2553 ms total)
+
+[----------] 2 tests from PmeTest
+[ RUN      ] PmeTest.ReproducesEnergies
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies_input.mdp, line 6]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+Setting the LD random seed to 1397023712
+Generated 279 of the 1225 non-bonded parameter combinations
+Excluding 2 bonded neighbours molecule type 'Methanol'
+Excluding 2 bonded neighbours molecule type 'SOL'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group rest is 12.00
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies_input.mdp]:
+  NVE simulation: will use the initial temperature of 1046.791 K for
+  determining the Verlet buffer size
+
+Estimate for the relative computational load of the PME mesh part: 1.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies_input.mdp]:
+  The optimal PME mesh load for parallel simulations is below 0.5
+  and for highly parallel simulations between 0.25 and 0.33,
+  for higher performance, increase the cut-off and the PME grid spacing.
+
+
+
+There were 3 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies.tpr, VERSION 2019.1 (single precision)
+Can not increase nstlist because an NVE ensemble is used
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+starting mdrun 'spc-and-methanol'
+20 steps,      0.0 ps.
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 1046.79 K
+Calculated rlist for 1x1 atom pair-list as 1.000 nm, buffer size 0.000 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.108 0.108 0.108
+This run will generate roughly 0 Mb of data
+
+Writing final coordinates.
+
+NOTE: The CPU has >25% more load than the GPU. This imbalance wastes
+      GPU resources.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.368        0.184      199.9
+                 (ns/day)    (hour/ns)
+Performance:        9.843        2.438
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies_spc-and-methanol_PmeAuto.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.001         Reading energy frame      2 time    0.002         Reading energy frame      3 time    0.003         Reading energy frame      4 time    0.004         Reading energy frame      5 time    0.005         Reading energy frame      6 time    0.006         Reading energy frame      7 time    0.007         Reading energy frame      8 time    0.008         Reading energy frame      9 time    0.009         Reading energy frame     10 time    0.010         Reading energy frame     11 time    0.011         Reading energy frame     12 time    0.012         Reading energy frame     13 time    0.013         Reading energy frame     14 time    0.014         Reading energy frame     15 time    0.015         Reading energy frame     16 time    0.016         Reading energy frame     17 time    0.017         Reading energy frame     18 time    0.018         Reading energy frame     19 time    0.019         Reading energy frame     20 time    0.020         Last energy frame read 20 time    0.020         Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies.tpr, VERSION 2019.1 (single precision)
+Can not increase nstlist because an NVE ensemble is used
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+starting mdrun 'spc-and-methanol'
+20 steps,      0.0 ps.
+
+Writing final coordinates.
+
+NOTE: The CPU has >25% more load than the GPU. This imbalance wastes
+      GPU resources.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.342        0.171      199.9
+                 (ns/day)    (hour/ns)
+Performance:       10.605        2.263
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies_spc-and-methanol_PmeOnCpu.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.001         Reading energy frame      2 time    0.002         Reading energy frame      3 time    0.003         Reading energy frame      4 time    0.004         Reading energy frame      5 time    0.005         Reading energy frame      6 time    0.006         Reading energy frame      7 time    0.007         Reading energy frame      8 time    0.008         Reading energy frame      9 time    0.009         Reading energy frame     10 time    0.010         Reading energy frame     11 time    0.011         Reading energy frame     12 time    0.012         Reading energy frame     13 time    0.013         Reading energy frame     14 time    0.014         Reading energy frame     15 time    0.015         Reading energy frame     16 time    0.016         Reading energy frame     17 time    0.017         Reading energy frame     18 time    0.018         Reading energy frame     19 time    0.019         Reading energy frame     20 time    0.020         Last energy frame read 20 time    0.020         Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies.tpr, VERSION 2019.1 (single precision)
+Can not increase nstlist because an NVE ensemble is used
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+starting mdrun 'spc-and-methanol'
+20 steps,      0.0 ps.
+
+Writing final coordinates.
+
+NOTE: The CPU has >25% more load than the GPU. This imbalance wastes
+      GPU resources.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.882        0.441      200.0
+                 (ns/day)    (hour/ns)
+Performance:        4.112        5.836
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies_spc-and-methanol_PmeOnCpuTune.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.001         Reading energy frame      2 time    0.002         Reading energy frame      3 time    0.003         Reading energy frame      4 time    0.004         Reading energy frame      5 time    0.005         Reading energy frame      6 time    0.006         Reading energy frame      7 time    0.007         Reading energy frame      8 time    0.008         Reading energy frame      9 time    0.009         Reading energy frame     10 time    0.010         Reading energy frame     11 time    0.011         Reading energy frame     12 time    0.012         Reading energy frame     13 time    0.013         Reading energy frame     14 time    0.014         Reading energy frame     15 time    0.015         Reading energy frame     16 time    0.016         Reading energy frame     17 time    0.017         Reading energy frame     18 time    0.018         Reading energy frame     19 time    0.019         Reading energy frame     20 time    0.020         Last energy frame read 20 time    0.020         [       OK ] PmeTest.ReproducesEnergies (9176 ms)
+[ RUN      ] PmeTest.ScalesTheBox
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ScalesTheBox_input.mdp, line 12]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ScalesTheBox_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ScalesTheBox_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Setting the LD random seed to 1865738183
+Generated 279 of the 1225 non-bonded parameter combinations
+Excluding 2 bonded neighbours molecule type 'Methanol'
+Excluding 2 bonded neighbours molecule type 'SOL'
+Removing all charge groups because cutoff-scheme=Verlet
+Searching the wall atom type(s)
+Number of degrees of freedom in T-Coupling group rest is 13.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ScalesTheBox_input.mdp]:
+  NVE simulation: will use the initial temperature of 966.268 K for
+  determining the Verlet buffer size
+
+Estimate for the relative computational load of the PME mesh part: 1.00
+
+NOTE 4 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ScalesTheBox_input.mdp]:
+  The optimal PME mesh load for parallel simulations is below 0.5
+  and for highly parallel simulations between 0.25 and 0.33,
+  for higher performance, increase the cut-off and the PME grid spacing.
+
+
+
+There were 4 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ScalesTheBox.tpr, VERSION 2019.1 (single precision)
+Can not increase nstlist because an NVE ensemble is used
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+starting mdrun 'spc-and-methanol'
+0 steps,      0.0 ps.
+
+NOTE: The CPU has >25% more load than the GPU. This imbalance wastes
+      GPU resources.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.006        0.003      196.5
+                 (ns/day)    (hour/ns)
+Performance:       26.562        0.904
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ScalesTheBox_spc-and-methanol_PmeOnCpu.edr as single precision energy file
+Reading energy frame      0 time    0.000         Last energy frame read 0 time    0.000         Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 966.268 K
+Calculated rlist for 1x1 atom pair-list as 1.000 nm, buffer size 0.000 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x128, spacing 0.108 0.108 0.118
+This run will generate roughly 0 Mb of data
+[       OK ] PmeTest.ScalesTheBox (2440 ms)
+[----------] 2 tests from PmeTest (11617 ms total)
+
+[----------] 1 test from CompelTest
+[ RUN      ] CompelTest.SwapCanRun
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/CompelTest_SwapCanRun_input.mdp]:
+  The Berendsen thermostat does not generate the correct kinetic energy
+  distribution. You might want to consider using the V-rescale thermostat.
+
+Setting the LD random seed to -1416698504
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein'
+Excluding 3 bonded neighbours molecule type 'OCT'
+Excluding 1 bonded neighbours molecule type 'NA'
+Excluding 1 bonded neighbours molecule type 'CL'
+Excluding 3 bonded neighbours molecule type 'Protein'
+Excluding 3 bonded neighbours molecule type 'OCT'
+Excluding 2 bonded neighbours molecule type 'SOL'
+Removing all charge groups because cutoff-scheme=Verlet
+Split0 group 'Ch0' contains 83 atoms.
+Split1 group 'Ch1' contains 83 atoms.
+Solvent group 'SOL' contains 11931 atoms.
+Swap group 'NA+' contains 19 atoms.
+Swap group 'CL-' contains 19 atoms.
+Number of degrees of freedom in T-Coupling group System is 27869.00
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/CompelTest_SwapCanRun_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 2 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/CompelTest_SwapCanRun.tpr, VERSION 2019.1 (single precision)
+Changing nstlist from 10 to 20, rlist from 1.26 to 1.454
+
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+SWAP: Determining initial numbers of ions per compartment.
+SWAP: Setting pointers for checkpoint writing
+SWAP: Channel 0 flux history for ion type NA+ (charge 1): 0 molecules
+SWAP: Channel 1 flux history for ion type NA+ (charge 1): 0 molecules
+SWAP: Channel 0 flux history for ion type CL- (charge -1): 0 molecules
+SWAP: Channel 1 flux history for ion type CL- (charge -1): 0 molecules
+starting mdrun 'Channel_coco in octane membrane'
+2 steps,      0.0 ps.
+
+Step 0, time 0 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 21.640755, max 270.792023 (between atoms 1787 and 1788)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+    264    265   89.9    0.1530   0.1241      0.1530
+    265    266   90.2    0.1530   1.0534      0.1530
+    266    267  120.7    0.1530   9.2113      0.1530
+    267    268   40.9    0.1530  10.2883      0.1530
+    268    269   89.9    0.1530   0.1798      0.1530
+    535    536   44.1    0.1530   0.2023      0.1530
+    536    537   89.9    0.1530   0.4163      0.1530
+    537    538  110.6    0.1530  10.7595      0.1530
+    656    657  123.3    0.1530  16.3547      0.1530
+    657    658   89.9    0.1530   0.0656      0.1530
+    691    692   90.0    0.1530   0.1677      0.1530
+    692    693   90.1    0.1530   1.3017      0.1530
+    776    777   90.9    0.1530   0.0935      0.1530
+    777    778  124.9    0.1530  16.1875      0.1530
+    780    781  123.4    0.1530  11.5459      0.1530
+    781    782   90.1    0.1530   0.4616      0.1530
+    808    809  102.6    0.1530  15.9562      0.1530
+    809    810   90.1    0.1530   0.2045      0.1530
+    847    848   89.9    0.1530   1.3288      0.1530
+    848    849   91.0    0.1530  16.4129      0.1530
+    850    851   90.2    0.1530   0.9654      0.1530
+    851    852   88.9    0.1530   0.1115      0.1530
+    887    888   90.3    0.1530  11.7409      0.1530
+    888    889  123.0    0.1530  11.3442      0.1530
+    889    890   90.9    0.1530   0.1818      0.1530
+    890    891  114.1    0.1530  16.3229      0.1530
+    891    892   85.7    0.1530  16.2535      0.1530
+    892    893   90.2    0.1530   0.4108      0.1530
+   1175   1176   74.1    0.1530  16.9742      0.1530
+   1176   1177   93.1    0.1530  33.1407      0.1530
+   1177   1178   49.0    0.1530  16.0110      0.1530
+   1326   1327   89.1    0.1530   0.1527      0.1530
+   1327   1328   90.5    0.1530   1.3155      0.1530
+   1328   1329  117.3    0.1530  16.1413      0.1530
+   1329   1330   37.1    0.1530  15.8578      0.1530
+   1374   1375   90.1    0.1530   0.4233      0.1530
+   1375   1376   41.6    0.1530  18.0774      0.1530
+   1376   1377   52.5    0.1530  18.5883      0.1530
+   1377   1378   90.0    0.1530   1.6144      0.1530
+   1381   1382   91.2    0.1530   0.2473      0.1530
+   1382   1383  123.3    0.1530  10.4250      0.1530
+   1384   1385  113.7    0.1530   8.3031      0.1530
+   1385   1386   90.4    0.1530   0.3072      0.1530
+   1651   1652   88.0    0.1530  11.2286      0.1530
+   1652   1653  126.6    0.1530  12.7383      0.1530
+   1654   1655   55.6    0.1530  38.0850      0.1530
+   1656   1657  110.1    0.1530  14.5564      0.1530
+   1657   1658   90.4    0.1530   0.1827      0.1530
+   1659   1660  105.4    0.1530  10.1912      0.1530
+   1660   1661  131.9    0.1530  10.9618      0.1530
+   1661   1662   89.7    0.1530   0.3267      0.1530
+   1662   1663   90.5    0.1530   0.4112      0.1530
+   1663   1664  127.3    0.1530  17.8572      0.1530
+   1664   1665  118.5    0.1530  18.2261      0.1530
+   1669   1670   67.2    0.1530   0.2442      0.1530
+   1670   1671   89.8    0.1530   0.9062      0.1530
+   1672   1673  131.3    0.1530  12.7215      0.1530
+   1673   1674   89.9    0.1530   0.3929      0.1530
+   1734   1735   92.7    0.1530   0.0620      0.1530
+   1736   1737   77.8    0.1530  17.1668      0.1530
+   1737   1738   51.5    0.1530  17.9986      0.1530
+   1780   1781   84.6    0.1530  17.8432      0.1530
+   1781   1782   90.9    0.1530   0.0773      0.1530
+   1788   1789   93.8    0.1530  16.0219      0.1530
+   1789   1790   90.1    0.1530   0.8050      0.1530
+   1790   1791   90.9    0.1530   0.0792      0.1530
+   1855   1856  108.7    0.1530  15.3687      0.1530
+   1856   1857   89.8    0.1530   1.3519      0.1530
+   1857   1858   90.0    0.1530   0.2833      0.1530
+
+step 0: One or more water molecules can not be settled.
+Check for bad contacts and/or reduce the timestep if appropriate.
+Wrote pdb files with previous and current coordinates
+SWAP: Warning: Inconsistency while assigning 'NA+' molecules to compartments. !inA: 19, !inB: 19, total molecules 19
+SWAP: Warning: 19 molecules are in group 'NA+', but altogether 0 have been assigned to the compartments.
+SWAP: Warning: Inconsistency while assigning 'CL-' molecules to compartments. !inA: 19, !inB: 19, total molecules 19
+SWAP: Warning: 19 molecules are in group 'CL-', but altogether 0 have been assigned to the compartments.
+SWAP: Warning: Inconsistency while assigning 'SOL' molecules to compartments. !inA: 3977, !inB: 3977, total molecules 3977
+SWAP: Warning: 3977 molecules are in group 'SOL', but altogether 0 have been assigned to the compartments.
+
+-------------------------------------------------------
+Program:     mdrun-test, version 2019.1
+Source file: src/gromacs/swap/swapcoords.cpp (line 1868)
+
+Fatal error:
+Could not get index of SOL atom. Compartment contains 0 SOL molecules before
+swaps.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+Calculated rlist for 1x1 atom pair-list as 1.314 nm, buffer size 0.314 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.260 nm, buffer size 0.260 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+This run will generate roughly 1 Mb of data
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+
+      Start 38: MdrunNonIntegratorTests
+38/40 Test #38: MdrunNonIntegratorTests ..........***Failed   43.05 sec
+[==========] Running 12 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 6 tests from MinimizersWorkWithConstraints/EnergyMinimizationTest
+[ RUN      ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/0
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 27.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Steepest Descents did not converge to Fmax < 10 in 5 steps.
+Potential Energy  = -1.0231507e+02
+Maximum force     =  2.9245001e+02 on atom 1
+Norm of force     =  1.3011585e+02
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         This run will generate roughly 0 Mb of data
+/home/madhu/gromacs/gromacs-2019.1/src/testutils/refdata.cpp:929: Failure
+   In item: /spc5/steep/Potential/Time 0.000000 Step 0 in frame 0
+    Actual: -96.7020263671875
+ Reference: -9.6231422424316406
+Difference: 87.0789 (27750156 single-prec. ULPs, rel. 9.05)
+ Tolerance: 150 ULPs
+Google Test trace:
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/energycomparison.cpp:126: Comparing Potential in Time 0.000000 Step 0 in frame 0
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/minimize.cpp:121: Comparing 'steep' energy minimization for simulation 'spc5'
+Reading energy frame      1 time    1.000         /home/madhu/gromacs/gromacs-2019.1/src/testutils/refdata.cpp:929: Failure
+   In item: /spc5/steep/Potential/Time 1.000000 Step 1 in frame 1
+    Actual: -100.9490966796875
+ Reference: -16.824483871459961
+Difference: 84.1246 (21187941 single-prec. ULPs, rel. 5)
+ Tolerance: 150 ULPs
+Google Test trace:
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/energycomparison.cpp:126: Comparing Potential in Time 1.000000 Step 1 in frame 1
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/minimize.cpp:121: Comparing 'steep' energy minimization for simulation 'spc5'
+Reading energy frame      2 time    4.000         /home/madhu/gromacs/gromacs-2019.1/src/testutils/refdata.cpp:929: Failure
+Reference data item /spc5/steep/Potential/Time 4.000000 Step 4 in frame 2 not found
+Google Test trace:
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/energycomparison.cpp:126: Comparing Potential in Time 4.000000 Step 4 in frame 2
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/minimize.cpp:121: Comparing 'steep' energy minimization for simulation 'spc5'
+Last energy frame read 2 time    4.000         /home/madhu/gromacs/gromacs-2019.1/src/testutils/refdata.cpp:265: Failure
+Failed
+Reference data items not used in test:
+  /spc5/steep/Potential/Time 2.000000 Step 2 in frame 2
+  /spc5/steep/Potential/Time 3.000000 Step 3 in frame 3
+  /spc5/steep/Potential/Time 4.000000 Step 4 in frame 4
+[  FAILED  ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/0, where GetParam() = ("spc5", "steep") (2272 ms)
+[ RUN      ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/1
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_1_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_1_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_1_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 27.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_1_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_1.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Polak-Ribiere Conjugate Gradients:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+   F-max             =  3.02331e+02 on atom 3
+   F-Norm            =  1.18024e+02
+
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Polak-Ribiere Conjugate Gradients did not converge to Fmax < 10 in 5 steps.
+Potential Energy  = -9.9520966e+01
+Maximum force     =  3.1745987e+02 on atom 1
+Norm of force     =  1.2459617e+02
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_1_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         This run will generate roughly 0 Mb of data
+/home/madhu/gromacs/gromacs-2019.1/src/testutils/refdata.cpp:929: Failure
+   In item: /spc5/cg/Potential/Time 0.000000 Step 0 in frame 0
+    Actual: -96.7020263671875
+ Reference: -9.6231422424316406
+Difference: 87.0789 (27750156 single-prec. ULPs, rel. 9.05)
+ Tolerance: 150 ULPs
+Google Test trace:
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/energycomparison.cpp:126: Comparing Potential in Time 0.000000 Step 0 in frame 0
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/minimize.cpp:121: Comparing 'cg' energy minimization for simulation 'spc5'
+Reading energy frame      1 time    0.000         /home/madhu/gromacs/gromacs-2019.1/src/testutils/refdata.cpp:929: Failure
+   In item: /spc5/cg/Potential/Time 0.000000 Step 0 in frame 1
+    Actual: -99.570014953613281
+ Reference: -14.332059860229492
+Difference: 85.238 (23188411 single-prec. ULPs, rel. 5.95)
+ Tolerance: 150 ULPs
+Google Test trace:
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/energycomparison.cpp:126: Comparing Potential in Time 0.000000 Step 0 in frame 1
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/minimize.cpp:121: Comparing 'cg' energy minimization for simulation 'spc5'
+Reading energy frame      2 time    4.000         /home/madhu/gromacs/gromacs-2019.1/src/testutils/refdata.cpp:929: Failure
+   In item: /spc5/cg/Potential/Time 4.000000 Step 4 in frame 2
+    Actual: -99.520965576171875
+ Reference: -55.862255096435547
+Difference: 43.6587 (6789065 single-prec. ULPs, rel. 0.782)
+ Tolerance: 150 ULPs
+Google Test trace:
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/energycomparison.cpp:126: Comparing Potential in Time 4.000000 Step 4 in frame 2
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/minimize.cpp:121: Comparing 'cg' energy minimization for simulation 'spc5'
+Last energy frame read 2 time    4.000         [  FAILED  ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/1, where GetParam() = ("spc5", "cg") (3427 ms)
+[ RUN      ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/2
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_2_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_2_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_2_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 20503 of the 20503 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+Generated 17396 of the 20503 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Glycine'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 22.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_2_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_2.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Steepest Descents did not converge to Fmax < 10 in 5 steps.
+Potential Energy  =  3.1937726e+02
+Maximum force     =  9.9988691e+03 on atom 9
+Norm of force     =  4.6167015e+03
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_2_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Last energy frame read 4 time    4.000         turning H bonds into constraints...
+This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/2 (3692 ms)
+[ RUN      ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/3
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_3_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_3_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_3_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 20503 of the 20503 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+Generated 17396 of the 20503 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Glycine'
+
+NOTE 3 [file glycine_vacuo.top, line 12]:
+  For accurate cg with LINCS constraints, lincs-order should be 8 or more.
+
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 22.00
+
+NOTE 4 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_3_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 4 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_3.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Polak-Ribiere Conjugate Gradients:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+   F-max             =  2.41575e+04 on atom 10
+   F-Norm            =  1.18451e+04
+
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Polak-Ribiere Conjugate Gradients did not converge to Fmax < 10 in 5 steps.
+Potential Energy  =  1.5174426e+02
+Maximum force     =  7.4208799e+03 on atom 9
+Norm of force     =  3.5692986e+03
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_3_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.000         Reading energy frame      2 time    4.000         Last energy frame read 2 time    4.000         turning H bonds into constraints...
+This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/3 (3569 ms)
+[ RUN      ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/4
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_4_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_4_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_4_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 2145 of the 2145 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2145 of the 2145 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Alanine_dipeptide'
+
+NOTE 3 [file unknown]:
+  You are using constraints on all bonds, whereas the forcefield has been
+  parametrized only with constraints involving hydrogen atoms. We suggest
+  using constraints = h-bonds instead, this will also improve performance.
+
+Cleaning up constraints and constant bonded interactions with virtual sites
+Removed     18           Angles with virtual sites,    21 left
+Removed     10     Proper Dih.s with virtual sites,    44 left
+Converted   15      Constraints with virtual sites to connections,     7 left
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 23.00
+
+NOTE 4 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_4_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 4 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_4.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Steepest Descents did not converge to Fmax < 10 in 5 steps.
+Potential Energy  = -1.5698431e+02
+Maximum force     =  4.5708105e+02 on atom 17
+Norm of force     =  1.8328513e+02
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_4_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    3.000         Last energy frame read 2 time    3.000         turning all bonds into constraints...
+This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/4 (3589 ms)
+[ RUN      ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/5
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_5_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_5_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_5_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 2145 of the 2145 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2145 of the 2145 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Alanine_dipeptide'
+
+NOTE 3 [file unknown]:
+  You are using constraints on all bonds, whereas the forcefield has been
+  parametrized only with constraints involving hydrogen atoms. We suggest
+  using constraints = h-bonds instead, this will also improve performance.
+
+
+NOTE 4 [file unknown]:
+  For accurate cg with LINCS constraints, lincs-order should be 8 or more.
+
+Cleaning up constraints and constant bonded interactions with virtual sites
+Removed     18           Angles with virtual sites,    21 left
+Removed     10     Proper Dih.s with virtual sites,    44 left
+Converted   15      Constraints with virtual sites to connections,     7 left
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 23.00
+
+NOTE 5 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_5_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 5 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_5.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Polak-Ribiere Conjugate Gradients:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+   F-max             =  1.06798e+03 on atom 28
+   F-Norm            =  4.26915e+02
+
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Polak-Ribiere Conjugate Gradients did not converge to Fmax < 10 in 5 steps.
+Potential Energy  = -1.6941229e+02
+Maximum force     =  2.1844173e+02 on atom 17
+Norm of force     =  7.9236186e+01
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_5_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.000         Reading energy frame      2 time    4.000         Last energy frame read 2 time    4.000         turning all bonds into constraints...
+This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/5 (3585 ms)
+[----------] 6 tests from MinimizersWorkWithConstraints/EnergyMinimizationTest (20134 ms total)
+
+[----------] 6 tests from MinimizersWork/EnergyMinimizationTest
+[ RUN      ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/0
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_0_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_0_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_0_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 1 of the 1 non-bonded parameter combinations
+Excluding 1 bonded neighbours molecule type 'Argon'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 33.00
+
+There were 2 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_0.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+
+writing lowest energy coordinates.
+
+Steepest Descents converged to Fmax < 10 in 1 steps
+Potential Energy  = -9.7425717e-01
+Maximum force     =  4.0132132e+00 on atom 1
+Norm of force     =  1.6383874e+00
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_0_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Last energy frame read 0 time    0.000         This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/0 (3514 ms)
+[ RUN      ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/1
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_1_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_1_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_1_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 1 of the 1 non-bonded parameter combinations
+Excluding 1 bonded neighbours molecule type 'Argon'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 33.00
+
+There were 2 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_1.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Polak-Ribiere Conjugate Gradients:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+   F-max             =  4.01321e+00 on atom 1
+   F-Norm            =  1.63839e+00
+
+
+writing lowest energy coordinates.
+
+Polak-Ribiere Conjugate Gradients converged to Fmax < 10 in 0 steps
+Potential Energy  = -9.9064201e-01
+Maximum force     =  2.5781698e+00 on atom 1
+Norm of force     =  1.0525334e+00
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_1_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.000         Last energy frame read 1 time    0.000         This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/1 (3879 ms)
+[ RUN      ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/2
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_2_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_2_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_2_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+
+WARNING 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_2_input.mdp]:
+  For efficient BFGS minimization, use switch/shift/pme instead of cut-off.
+
+Generated 1 of the 1 non-bonded parameter combinations
+Excluding 1 bonded neighbours molecule type 'Argon'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 33.00
+
+There were 2 notes
+
+There was 1 warning
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_2.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Low-Memory BFGS Minimizer:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+Using 10 BFGS correction steps.
+
+   F-max             =  4.01321e+00 on atom 1
+   F-Norm            =  1.63839e+00
+
+
+writing lowest energy coordinates.
+
+Low-Memory BFGS Minimizer converged to Fmax < 10 in 0 steps
+Potential Energy  = -9.9064201e-01
+Maximum force     =  2.5781698e+00 on atom 1
+Norm of force     =  1.0525334e+00
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_2_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.000         Last energy frame read 1 time    0.000         This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/2 (3534 ms)
+[ RUN      ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/3
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_3_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_3_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_3_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 20503 of the 20503 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+Generated 17396 of the 20503 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Glycine'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 27.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_3_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_3.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Steepest Descents did not converge to Fmax < 10 in 5 steps.
+Potential Energy  =  3.1939676e+02
+Maximum force     =  9.9704229e+03 on atom 9
+Norm of force     =  4.6227534e+03
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_3_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Last energy frame read 4 time    4.000         This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/3 (3565 ms)
+[ RUN      ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/4
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_4_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_4_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_4_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 20503 of the 20503 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+Generated 17396 of the 20503 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Glycine'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 27.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_4_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_4.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Polak-Ribiere Conjugate Gradients:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+   F-max             =  2.41672e+04 on atom 10
+   F-Norm            =  1.19357e+04
+
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Polak-Ribiere Conjugate Gradients did not converge to Fmax < 10 in 5 steps.
+Potential Energy  =  1.5625763e+02
+Maximum force     =  7.5018252e+03 on atom 9
+Norm of force     =  3.6139022e+03
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_4_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.000         Reading energy frame      2 time    4.000         Last energy frame read 2 time    4.000         This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/4 (3643 ms)
+[ RUN      ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/5
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_5_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_5_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_5_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+
+WARNING 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_5_input.mdp]:
+  For efficient BFGS minimization, use switch/shift/pme instead of cut-off.
+
+Generated 20503 of the 20503 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+Generated 17396 of the 20503 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Glycine'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 27.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_5_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 notes
+
+There was 1 warning
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_5.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Low-Memory BFGS Minimizer:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+Using 10 BFGS correction steps.
+
+   F-max             =  2.41672e+04 on atom 10
+   F-Norm            =  1.19357e+04
+
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Low-Memory BFGS Minimizer did not converge to Fmax < 10 in 5 steps.
+Potential Energy  =  1.8472423e+03
+Maximum force     =  2.1261639e+04 on atom 9
+Norm of force     =  1.0198860e+04
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_5_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.000         Reading energy frame      2 time    4.000         Last energy frame read 2 time    4.000         This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/5 (3454 ms)
+[----------] 6 tests from MinimizersWork/EnergyMinimizationTest (21589 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 2 test cases ran. (41723 ms total)
+[  PASSED  ] 10 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/0, where GetParam() = ("spc5", "steep")
+[  FAILED  ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/1, where GetParam() = ("spc5", "cg")
+
+ 2 FAILED TESTS
+  YOU HAVE 45 DISABLED TESTS
+
+
+      Start 39: LegacyGroupSchemeMdrunTests
+39/40 Test #39: LegacyGroupSchemeMdrunTests ......   Passed    2.04 sec
+      Start 40: MdrunMpiTests
+40/40 Test #40: MdrunMpiTests ....................***Failed   50.19 sec
+[==========] Running 25 tests from 9 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from DomainDecompositionSpecialCasesTest
+[ RUN      ] DomainDecompositionSpecialCasesTest.AnEmptyDomainWorks
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/DomainDecompositionSpecialCasesTest_AnEmptyDomainWorks_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Setting the LD random seed to 142733661
+Generated 3 of the 3 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 3 of the 3 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group rest is 9.00
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/DomainDecompositionSpecialCasesTest_AnEmptyDomainWorks_input.mdp]:
+  NVE simulation with an initial temperature of zero: will use a Verlet
+  buffer of 10%. Check your energy drift!
+
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/DomainDecompositionSpecialCasesTest_AnEmptyDomainWorks_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/DomainDecompositionSpecialCasesTest_AnEmptyDomainWorks.tpr, VERSION 2019.1 (single precision)
+Can not increase nstlist because an NVE ensemble is used
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+starting mdrun 'spc2'
+0 steps,      0.0 ps.
+
+NOTE: 31 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.003        0.002      193.4
+                 (ns/day)    (hour/ns)
+Performance:       53.879        0.445
+This run will generate roughly 0 Mb of data
+[       OK ] DomainDecompositionSpecialCasesTest.AnEmptyDomainWorks (2239 ms)
+[----------] 1 test from DomainDecompositionSpecialCasesTest (2239 ms total)
+
+[----------] 4 tests from MimicTest
+[ RUN      ] MimicTest.OneQuantumMol
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_OneQuantumMol_input.mdp, line 3]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_OneQuantumMol_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_OneQuantumMol_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Setting the LD random seed to 1378212582
+Generated 10 of the 10 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 10 of the 10 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group rest is 21.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_OneQuantumMol_input.mdp]:
+  NVE simulation with an initial temperature of zero: will use a Verlet
+  buffer of 10%. Check your energy drift!
+
+
+NOTE 4 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_OneQuantumMol_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 4 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_OneQuantumMol.tpr, VERSION 2019.1 (single precision)
+Can not increase nstlist because an NVE ensemble is used
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+starting md rerun 'Generated by gmx solvate', reading coordinates from input trajectory '/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/4water.gro'
+
+Reading frames from gro file 'Generated by gmx solvate', 12 atoms.
+Reading frame       0 time    0.000   Last frame          0 time    0.000   
+
+NOTE: 23 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.002        0.001      194.2
+                 (ns/day)    (hour/ns)
+Performance:       77.301        0.310
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_OneQuantumMol.edr as single precision energy file
+Reading energy frame      0 time    0.000         Last energy frame read 0 time    0.000         This run will generate roughly 0 Mb of data
+[       OK ] MimicTest.OneQuantumMol (3423 ms)
+[ RUN      ] MimicTest.AllQuantumMol
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_AllQuantumMol_input.mdp, line 3]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_AllQuantumMol_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_AllQuantumMol_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Setting the LD random seed to 1162713942
+Generated 10 of the 10 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 10 of the 10 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group rest is 21.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_AllQuantumMol_input.mdp]:
+  NVE simulation with an initial temperature of zero: will use a Verlet
+  buffer of 10%. Check your energy drift!
+
+
+NOTE 4 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_AllQuantumMol_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 4 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_AllQuantumMol.tpr, VERSION 2019.1 (single precision)
+Can not increase nstlist because an NVE ensemble is used
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+starting md rerun 'Generated by gmx solvate', reading coordinates from input trajectory '/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/4water.gro'
+
+Reading frames from gro file 'Generated by gmx solvate', 12 atoms.
+Reading frame       0 time    0.000   Last frame          0 time    0.000   
+
+NOTE: 24 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.002        0.001      194.1
+                 (ns/day)    (hour/ns)
+Performance:       78.763        0.305
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_AllQuantumMol.edr as single precision energy file
+Reading energy frame      0 time    0.000         Last energy frame read 0 time    0.000         This run will generate roughly 0 Mb of data
+[       OK ] MimicTest.AllQuantumMol (3440 ms)
+[ RUN      ] MimicTest.TwoQuantumMol
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_TwoQuantumMol_input.mdp, line 3]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_TwoQuantumMol_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_TwoQuantumMol_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Setting the LD random seed to 1001521967
+Generated 10 of the 10 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 10 of the 10 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group rest is 21.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_TwoQuantumMol_input.mdp]:
+  NVE simulation with an initial temperature of zero: will use a Verlet
+  buffer of 10%. Check your energy drift!
+
+
+NOTE 4 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_TwoQuantumMol_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 4 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_TwoQuantumMol.tpr, VERSION 2019.1 (single precision)
+Can not increase nstlist because an NVE ensemble is used
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+starting md rerun 'Generated by gmx solvate', reading coordinates from input trajectory '/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/4water.gro'
+
+Reading frames from gro file 'Generated by gmx solvate', 12 atoms.
+Reading frame       0 time    0.000   Last frame          0 time    0.000   
+
+NOTE: 27 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.002        0.001      192.4
+                 (ns/day)    (hour/ns)
+Performance:       84.809        0.283
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_TwoQuantumMol.edr as single precision energy file
+Reading energy frame      0 time    0.000         Last energy frame read 0 time    0.000         This run will generate roughly 0 Mb of data
+[       OK ] MimicTest.TwoQuantumMol (3712 ms)
+[ RUN      ] MimicTest.BondCuts
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_BondCuts_input.mdp, line 3]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_BondCuts_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_BondCuts_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Setting the LD random seed to 377266883
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group rest is 66.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_BondCuts_input.mdp]:
+  NVE simulation: will use the initial temperature of 300.368 K for
+  determining the Verlet buffer size
+
+
+NOTE 4 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_BondCuts_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 4 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_BondCuts.tpr, VERSION 2019.1 (single precision)
+Can not increase nstlist because an NVE ensemble is used
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+starting md rerun 'UNNAMED in water', reading coordinates from input trajectory '/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/ala.gro'
+
+Reading frames from gro file 'Alanine dipeptide in water', 23 atoms.
+Reading frame       0 time    0.000   Last frame          0 time    0.000   
+
+NOTE: 26 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.002        0.001      194.0
+                 (ns/day)    (hour/ns)
+Performance:       75.845        0.316
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MimicTest_BondCuts.edr as single precision energy file
+Reading energy frame      0 time    0.000         Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300.368 K
+Calculated rlist for 1x1 atom pair-list as 1.034 nm, buffer size 0.034 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.025 nm, buffer size 0.025 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+This run will generate roughly 0 Mb of data
+/home/madhu/gromacs/gromacs-2019.1/src/testutils/refdata.cpp:929: Failure
+   In item: /Potential/Time 0.000000 Step 0 in frame 0
+    Actual: 88.503814697265625
+ Reference: 153.63571166992188
+Difference: 65.1319 (6856906 single-prec. ULPs, rel. 0.424)
+ Tolerance: abs. 0.00201, rel. 0.0001
+Google Test trace:
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/energycomparison.cpp:126: Comparing Potential in Time 0.000000 Step 0 in frame 0
+Last energy frame read 0 time    0.000         [  FAILED  ] MimicTest.BondCuts (3613 ms)
+[----------] 4 tests from MimicTest (14188 ms total)
+
+[----------] 1 test from MultiSimTerminationTest
+[ RUN      ] MultiSimTerminationTest.WritesCheckpointAfterMaxhTerminationAndThenRestarts
+[       OK ] MultiSimTerminationTest.WritesCheckpointAfterMaxhTerminationAndThenRestarts (0 ms)
+[----------] 1 test from MultiSimTerminationTest (0 ms total)
+
+[----------] 2 tests from PmeTest
+[ RUN      ] PmeTest.ReproducesEnergies
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies_input.mdp, line 6]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+Setting the LD random seed to -885366827
+Generated 279 of the 1225 non-bonded parameter combinations
+Excluding 2 bonded neighbours molecule type 'Methanol'
+Excluding 2 bonded neighbours molecule type 'SOL'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group rest is 12.00
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies_input.mdp]:
+  NVE simulation: will use the initial temperature of 1046.791 K for
+  determining the Verlet buffer size
+
+Estimate for the relative computational load of the PME mesh part: 1.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies_input.mdp]:
+  The optimal PME mesh load for parallel simulations is below 0.5
+  and for highly parallel simulations between 0.25 and 0.33,
+  for higher performance, increase the cut-off and the PME grid spacing.
+
+
+
+There were 3 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies.tpr, VERSION 2019.1 (single precision)
+Can not increase nstlist because an NVE ensemble is used
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+starting mdrun 'spc-and-methanol'
+20 steps,      0.0 ps.
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 1046.79 K
+Calculated rlist for 1x1 atom pair-list as 1.000 nm, buffer size 0.000 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.108 0.108 0.108
+This run will generate roughly 0 Mb of data
+
+Writing final coordinates.
+
+NOTE: The CPU has >25% more load than the GPU. This imbalance wastes
+      GPU resources.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.372        0.186      200.0
+                 (ns/day)    (hour/ns)
+Performance:        9.753        2.461
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies_spc-and-methanol_PmeAuto.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.001         Reading energy frame      2 time    0.002         Reading energy frame      3 time    0.003         Reading energy frame      4 time    0.004         Reading energy frame      5 time    0.005         Reading energy frame      6 time    0.006         Reading energy frame      7 time    0.007         Reading energy frame      8 time    0.008         Reading energy frame      9 time    0.009         Reading energy frame     10 time    0.010         Reading energy frame     11 time    0.011         Reading energy frame     12 time    0.012         Reading energy frame     13 time    0.013         Reading energy frame     14 time    0.014         Reading energy frame     15 time    0.015         Reading energy frame     16 time    0.016         Reading energy frame     17 time    0.017         Reading energy frame     18 time    0.018         Reading energy frame     19 time    0.019         Reading energy frame     20 time    0.020         Last energy frame read 20 time    0.020         Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies.tpr, VERSION 2019.1 (single precision)
+Can not increase nstlist because an NVE ensemble is used
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+starting mdrun 'spc-and-methanol'
+20 steps,      0.0 ps.
+
+Writing final coordinates.
+
+NOTE: The CPU has >25% more load than the GPU. This imbalance wastes
+      GPU resources.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.349        0.175      200.0
+                 (ns/day)    (hour/ns)
+Performance:       10.383        2.312
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies_spc-and-methanol_PmeOnCpu.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.001         Reading energy frame      2 time    0.002         Reading energy frame      3 time    0.003         Reading energy frame      4 time    0.004         Reading energy frame      5 time    0.005         Reading energy frame      6 time    0.006         Reading energy frame      7 time    0.007         Reading energy frame      8 time    0.008         Reading energy frame      9 time    0.009         Reading energy frame     10 time    0.010         Reading energy frame     11 time    0.011         Reading energy frame     12 time    0.012         Reading energy frame     13 time    0.013         Reading energy frame     14 time    0.014         Reading energy frame     15 time    0.015         Reading energy frame     16 time    0.016         Reading energy frame     17 time    0.017         Reading energy frame     18 time    0.018         Reading energy frame     19 time    0.019         Reading energy frame     20 time    0.020         Last energy frame read 20 time    0.020         Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies.tpr, VERSION 2019.1 (single precision)
+Can not increase nstlist because an NVE ensemble is used
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+starting mdrun 'spc-and-methanol'
+20 steps,      0.0 ps.
+
+Writing final coordinates.
+
+NOTE: The CPU has >25% more load than the GPU. This imbalance wastes
+      GPU resources.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.763        0.381      200.0
+                 (ns/day)    (hour/ns)
+Performance:        4.756        5.046
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ReproducesEnergies_spc-and-methanol_PmeOnCpuTune.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.001         Reading energy frame      2 time    0.002         Reading energy frame      3 time    0.003         Reading energy frame      4 time    0.004         Reading energy frame      5 time    0.005         Reading energy frame      6 time    0.006         Reading energy frame      7 time    0.007         Reading energy frame      8 time    0.008         Reading energy frame      9 time    0.009         Reading energy frame     10 time    0.010         Reading energy frame     11 time    0.011         Reading energy frame     12 time    0.012         Reading energy frame     13 time    0.013         Reading energy frame     14 time    0.014         Reading energy frame     15 time    0.015         Reading energy frame     16 time    0.016         Reading energy frame     17 time    0.017         Reading energy frame     18 time    0.018         Reading energy frame     19 time    0.019         Reading energy frame     20 time    0.020         Last energy frame read 20 time    0.020         [       OK ] PmeTest.ReproducesEnergies (8866 ms)
+[ RUN      ] PmeTest.ScalesTheBox
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ScalesTheBox_input.mdp, line 12]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ScalesTheBox_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ScalesTheBox_input.mdp]:
+  For a correct single-point energy evaluation with nsteps = 0, use
+  continuation = yes to avoid constraining the input coordinates.
+
+Setting the LD random seed to 571303761
+Generated 279 of the 1225 non-bonded parameter combinations
+Excluding 2 bonded neighbours molecule type 'Methanol'
+Excluding 2 bonded neighbours molecule type 'SOL'
+Removing all charge groups because cutoff-scheme=Verlet
+Searching the wall atom type(s)
+Number of degrees of freedom in T-Coupling group rest is 13.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ScalesTheBox_input.mdp]:
+  NVE simulation: will use the initial temperature of 966.268 K for
+  determining the Verlet buffer size
+
+Estimate for the relative computational load of the PME mesh part: 1.00
+
+NOTE 4 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ScalesTheBox_input.mdp]:
+  The optimal PME mesh load for parallel simulations is below 0.5
+  and for highly parallel simulations between 0.25 and 0.33,
+  for higher performance, increase the cut-off and the PME grid spacing.
+
+
+
+There were 4 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ScalesTheBox.tpr, VERSION 2019.1 (single precision)
+Can not increase nstlist because an NVE ensemble is used
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+starting mdrun 'spc-and-methanol'
+0 steps,      0.0 ps.
+
+NOTE: The CPU has >25% more load than the GPU. This imbalance wastes
+      GPU resources.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        0.008        0.004      197.3
+                 (ns/day)    (hour/ns)
+Performance:       20.569        1.167
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/PmeTest_ScalesTheBox_spc-and-methanol_PmeOnCpu.edr as single precision energy file
+Reading energy frame      0 time    0.000         Last energy frame read 0 time    0.000         Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 966.268 K
+Calculated rlist for 1x1 atom pair-list as 1.000 nm, buffer size 0.000 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x128, spacing 0.108 0.108 0.118
+This run will generate roughly 0 Mb of data
+[       OK ] PmeTest.ScalesTheBox (2424 ms)
+[----------] 2 tests from PmeTest (11290 ms total)
+
+[----------] 1 test from ReplicaExchangeTerminationTest
+[ RUN      ] ReplicaExchangeTerminationTest.WritesCheckpointAfterMaxhTerminationAndThenRestarts
+[       OK ] ReplicaExchangeTerminationTest.WritesCheckpointAfterMaxhTerminationAndThenRestarts (0 ms)
+[----------] 1 test from ReplicaExchangeTerminationTest (0 ms total)
+
+[----------] 6 tests from MinimizersWorkWithConstraints/EnergyMinimizationTest
+[ RUN      ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/0
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 27.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Steepest Descents did not converge to Fmax < 10 in 5 steps.
+Potential Energy  = -1.0231507e+02
+Maximum force     =  2.9245001e+02 on atom 1
+Norm of force     =  1.3011585e+02
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_0_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         This run will generate roughly 0 Mb of data
+/home/madhu/gromacs/gromacs-2019.1/src/testutils/refdata.cpp:929: Failure
+   In item: /spc5/steep/Potential/Time 0.000000 Step 0 in frame 0
+    Actual: -96.7020263671875
+ Reference: -9.6231422424316406
+Difference: 87.0789 (27750156 single-prec. ULPs, rel. 9.05)
+ Tolerance: 150 ULPs
+Google Test trace:
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/energycomparison.cpp:126: Comparing Potential in Time 0.000000 Step 0 in frame 0
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/minimize.cpp:121: Comparing 'steep' energy minimization for simulation 'spc5'
+Reading energy frame      1 time    1.000         /home/madhu/gromacs/gromacs-2019.1/src/testutils/refdata.cpp:929: Failure
+   In item: /spc5/steep/Potential/Time 1.000000 Step 1 in frame 1
+    Actual: -100.94910430908203
+ Reference: -16.824483871459961
+Difference: 84.1246 (21187942 single-prec. ULPs, rel. 5)
+ Tolerance: 150 ULPs
+Google Test trace:
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/energycomparison.cpp:126: Comparing Potential in Time 1.000000 Step 1 in frame 1
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/minimize.cpp:121: Comparing 'steep' energy minimization for simulation 'spc5'
+Reading energy frame      2 time    4.000         /home/madhu/gromacs/gromacs-2019.1/src/testutils/refdata.cpp:929: Failure
+Reference data item /spc5/steep/Potential/Time 4.000000 Step 4 in frame 2 not found
+Google Test trace:
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/energycomparison.cpp:126: Comparing Potential in Time 4.000000 Step 4 in frame 2
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/minimize.cpp:121: Comparing 'steep' energy minimization for simulation 'spc5'
+Last energy frame read 2 time    4.000         /home/madhu/gromacs/gromacs-2019.1/src/testutils/refdata.cpp:265: Failure
+Failed
+Reference data items not used in test:
+  /spc5/steep/Potential/Time 2.000000 Step 2 in frame 2
+  /spc5/steep/Potential/Time 3.000000 Step 3 in frame 3
+  /spc5/steep/Potential/Time 4.000000 Step 4 in frame 4
+[  FAILED  ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/0, where GetParam() = ("spc5", "steep") (1541 ms)
+[ RUN      ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/1
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_1_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_1_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_1_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 27.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_1_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_1.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Polak-Ribiere Conjugate Gradients:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+   F-max             =  3.02331e+02 on atom 3
+   F-Norm            =  1.18024e+02
+
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Polak-Ribiere Conjugate Gradients did not converge to Fmax < 10 in 5 steps.
+Potential Energy  = -9.9520966e+01
+Maximum force     =  3.1745987e+02 on atom 1
+Norm of force     =  1.2459617e+02
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_1_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         This run will generate roughly 0 Mb of data
+/home/madhu/gromacs/gromacs-2019.1/src/testutils/refdata.cpp:929: Failure
+   In item: /spc5/cg/Potential/Time 0.000000 Step 0 in frame 0
+    Actual: -96.7020263671875
+ Reference: -9.6231422424316406
+Difference: 87.0789 (27750156 single-prec. ULPs, rel. 9.05)
+ Tolerance: 150 ULPs
+Google Test trace:
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/energycomparison.cpp:126: Comparing Potential in Time 0.000000 Step 0 in frame 0
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/minimize.cpp:121: Comparing 'cg' energy minimization for simulation 'spc5'
+Reading energy frame      1 time    0.000         /home/madhu/gromacs/gromacs-2019.1/src/testutils/refdata.cpp:929: Failure
+   In item: /spc5/cg/Potential/Time 0.000000 Step 0 in frame 1
+    Actual: -99.570014953613281
+ Reference: -14.332059860229492
+Difference: 85.238 (23188411 single-prec. ULPs, rel. 5.95)
+ Tolerance: 150 ULPs
+Google Test trace:
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/energycomparison.cpp:126: Comparing Potential in Time 0.000000 Step 0 in frame 1
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/minimize.cpp:121: Comparing 'cg' energy minimization for simulation 'spc5'
+Reading energy frame      2 time    4.000         /home/madhu/gromacs/gromacs-2019.1/src/testutils/refdata.cpp:929: Failure
+   In item: /spc5/cg/Potential/Time 4.000000 Step 4 in frame 2
+    Actual: -99.520965576171875
+ Reference: -55.862255096435547
+Difference: 43.6587 (6789065 single-prec. ULPs, rel. 0.782)
+ Tolerance: 150 ULPs
+Google Test trace:
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/energycomparison.cpp:126: Comparing Potential in Time 4.000000 Step 4 in frame 2
+/home/madhu/gromacs/gromacs-2019.1/src/programs/mdrun/tests/minimize.cpp:121: Comparing 'cg' energy minimization for simulation 'spc5'
+Last energy frame read 2 time    4.000         [  FAILED  ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/1, where GetParam() = ("spc5", "cg") (1547 ms)
+[ RUN      ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/2
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_2_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_2_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_2_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 20503 of the 20503 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+Generated 17396 of the 20503 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Glycine'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 22.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_2_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_2.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Steepest Descents did not converge to Fmax < 10 in 5 steps.
+Potential Energy  =  3.1937726e+02
+Maximum force     =  9.9988691e+03 on atom 9
+Norm of force     =  4.6167015e+03
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_2_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Last energy frame read 4 time    4.000         turning H bonds into constraints...
+This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/2 (1532 ms)
+[ RUN      ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/3
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_3_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_3_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_3_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 20503 of the 20503 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+Generated 17396 of the 20503 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Glycine'
+
+NOTE 3 [file glycine_vacuo.top, line 12]:
+  For accurate cg with LINCS constraints, lincs-order should be 8 or more.
+
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 22.00
+
+NOTE 4 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_3_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 4 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_3.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Polak-Ribiere Conjugate Gradients:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+   F-max             =  2.41575e+04 on atom 10
+   F-Norm            =  1.18451e+04
+
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Polak-Ribiere Conjugate Gradients did not converge to Fmax < 10 in 5 steps.
+Potential Energy  =  1.5174426e+02
+Maximum force     =  7.4208799e+03 on atom 9
+Norm of force     =  3.5692986e+03
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_3_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.000         Reading energy frame      2 time    4.000         Last energy frame read 2 time    4.000         turning H bonds into constraints...
+This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/3 (1587 ms)
+[ RUN      ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/4
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_4_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_4_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_4_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 2145 of the 2145 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2145 of the 2145 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Alanine_dipeptide'
+
+NOTE 3 [file unknown]:
+  You are using constraints on all bonds, whereas the forcefield has been
+  parametrized only with constraints involving hydrogen atoms. We suggest
+  using constraints = h-bonds instead, this will also improve performance.
+
+Cleaning up constraints and constant bonded interactions with virtual sites
+Removed     18           Angles with virtual sites,    21 left
+Removed     10     Proper Dih.s with virtual sites,    44 left
+Converted   15      Constraints with virtual sites to connections,     7 left
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 23.00
+
+NOTE 4 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_4_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 4 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_4.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Steepest Descents did not converge to Fmax < 10 in 5 steps.
+Potential Energy  = -1.5698431e+02
+Maximum force     =  4.5708105e+02 on atom 17
+Norm of force     =  1.8328513e+02
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_4_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    3.000         Last energy frame read 2 time    3.000         turning all bonds into constraints...
+This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/4 (1541 ms)
+[ RUN      ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/5
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_5_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_5_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_5_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 2145 of the 2145 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2145 of the 2145 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Alanine_dipeptide'
+
+NOTE 3 [file unknown]:
+  You are using constraints on all bonds, whereas the forcefield has been
+  parametrized only with constraints involving hydrogen atoms. We suggest
+  using constraints = h-bonds instead, this will also improve performance.
+
+
+NOTE 4 [file unknown]:
+  For accurate cg with LINCS constraints, lincs-order should be 8 or more.
+
+Cleaning up constraints and constant bonded interactions with virtual sites
+Removed     18           Angles with virtual sites,    21 left
+Removed     10     Proper Dih.s with virtual sites,    44 left
+Converted   15      Constraints with virtual sites to connections,     7 left
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 23.00
+
+NOTE 5 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_5_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 5 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_5.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Polak-Ribiere Conjugate Gradients:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+   F-max             =  1.06798e+03 on atom 28
+   F-Norm            =  4.26915e+02
+
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Polak-Ribiere Conjugate Gradients did not converge to Fmax < 10 in 5 steps.
+Potential Energy  = -1.6941229e+02
+Maximum force     =  2.1844173e+02 on atom 17
+Norm of force     =  7.9236186e+01
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWorkWithConstraints_EnergyMinimizationTest_WithinTolerances_5_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.000         Reading energy frame      2 time    4.000         Last energy frame read 2 time    4.000         turning all bonds into constraints...
+This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/5 (1553 ms)
+[----------] 6 tests from MinimizersWorkWithConstraints/EnergyMinimizationTest (9301 ms total)
+
+[----------] 6 tests from MinimizersWork/EnergyMinimizationTest
+[ RUN      ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/0
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_0_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_0_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_0_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 1 of the 1 non-bonded parameter combinations
+Excluding 1 bonded neighbours molecule type 'Argon'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 33.00
+
+There were 2 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_0.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+
+writing lowest energy coordinates.
+
+Steepest Descents converged to Fmax < 10 in 1 steps
+Potential Energy  = -9.7425717e-01
+Maximum force     =  4.0132132e+00 on atom 1
+Norm of force     =  1.6383874e+00
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_0_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Last energy frame read 0 time    0.000         This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/0 (1532 ms)
+[ RUN      ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/1
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_1_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_1_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_1_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 1 of the 1 non-bonded parameter combinations
+Excluding 1 bonded neighbours molecule type 'Argon'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 33.00
+
+There were 2 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_1.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Polak-Ribiere Conjugate Gradients:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+   F-max             =  4.01321e+00 on atom 1
+   F-Norm            =  1.63839e+00
+
+
+writing lowest energy coordinates.
+
+Polak-Ribiere Conjugate Gradients converged to Fmax < 10 in 0 steps
+Potential Energy  = -9.9064201e-01
+Maximum force     =  2.5781698e+00 on atom 1
+Norm of force     =  1.0525334e+00
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_1_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.000         Last energy frame read 1 time    0.000         This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/1 (1519 ms)
+[ RUN      ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/2
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_2_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_2_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_2_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+
+WARNING 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_2_input.mdp]:
+  For efficient BFGS minimization, use switch/shift/pme instead of cut-off.
+
+Generated 1 of the 1 non-bonded parameter combinations
+Excluding 1 bonded neighbours molecule type 'Argon'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 33.00
+
+There were 2 notes
+
+There was 1 warning
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_2.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Low-Memory BFGS Minimizer:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+Using 10 BFGS correction steps.
+
+   F-max             =  4.01321e+00 on atom 1
+   F-Norm            =  1.63839e+00
+
+
+writing lowest energy coordinates.
+
+Low-Memory BFGS Minimizer converged to Fmax < 10 in 0 steps
+Potential Energy  = -9.9064201e-01
+Maximum force     =  2.5781698e+00 on atom 1
+Norm of force     =  1.0525334e+00
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_2_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.000         Last energy frame read 1 time    0.000         This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/2 (1650 ms)
+[ RUN      ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/3
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_3_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_3_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_3_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 20503 of the 20503 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+Generated 17396 of the 20503 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Glycine'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 27.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_3_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_3.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Steepest Descents did not converge to Fmax < 10 in 5 steps.
+Potential Energy  =  3.1939676e+02
+Maximum force     =  9.9704229e+03 on atom 9
+Norm of force     =  4.6227534e+03
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_3_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Last energy frame read 4 time    4.000         This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/3 (1602 ms)
+[ RUN      ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/4
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_4_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_4_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_4_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Generated 20503 of the 20503 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+Generated 17396 of the 20503 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Glycine'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 27.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_4_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 notes
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_4.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Polak-Ribiere Conjugate Gradients:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+   F-max             =  2.41672e+04 on atom 10
+   F-Norm            =  1.19357e+04
+
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Polak-Ribiere Conjugate Gradients did not converge to Fmax < 10 in 5 steps.
+Potential Energy  =  1.5625763e+02
+Maximum force     =  7.5018252e+03 on atom 9
+Norm of force     =  3.6139022e+03
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_4_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.000         Reading energy frame      2 time    4.000         Last energy frame read 2 time    4.000         This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/4 (1585 ms)
+[ RUN      ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/5
+
+NOTE 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_5_input.mdp, line 28]:
+  /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_5_input.mdp did not specify a value for the .mdp option "cutoff-scheme". Probably it
+  was first intended for use with GROMACS before 4.6. In 4.6, the Verlet
+  scheme was introduced, but the group scheme was still the default. The
+  default is now the Verlet scheme, so you will observe different behaviour.
+
+
+NOTE 2 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_5_input.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+
+WARNING 1 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_5_input.mdp]:
+  For efficient BFGS minimization, use switch/shift/pme instead of cut-off.
+
+Generated 20503 of the 20503 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+Generated 17396 of the 20503 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Glycine'
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group System is 27.00
+
+NOTE 3 [file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_5_input.mdp]:
+  You are using a plain Coulomb cut-off, which might produce artifacts.
+  You might want to consider using PME electrostatics.
+
+
+
+There were 3 notes
+
+There was 1 warning
+Reading file /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_5.tpr, VERSION 2019.1 (single precision)
+Using 1 MPI process
+Using 2 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+NOTE: The number of threads is not equal to the number of (logical) cores
+      and the -pin option is set to auto: will not pin threads to cores.
+      This can lead to significant performance degradation.
+      Consider using -pin on (and -pinoffset in case you run multiple jobs).
+
+Low-Memory BFGS Minimizer:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =            4
+Using 10 BFGS correction steps.
+
+   F-max             =  2.41672e+04 on atom 10
+   F-Norm            =  1.19357e+04
+
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Low-Memory BFGS Minimizer did not converge to Fmax < 10 in 5 steps.
+Potential Energy  =  1.8472423e+03
+Maximum force     =  2.1261639e+04 on atom 9
+Norm of force     =  1.0198860e+04
+Opened /home/madhu/gromacs/gromacs-2019.1/build/src/programs/mdrun/tests/Testing/Temporary/MinimizersWork_EnergyMinimizationTest_WithinTolerances_5_minimize.edr as single precision energy file
+Reading energy frame      0 time    0.000         Reading energy frame      1 time    0.000         Reading energy frame      2 time    4.000         Last energy frame read 2 time    4.000         This run will generate roughly 0 Mb of data
+[       OK ] MinimizersWork/EnergyMinimizationTest.WithinTolerances/5 (1610 ms)
+[----------] 6 tests from MinimizersWork/EnergyMinimizationTest (9498 ms total)
+
+[----------] 2 tests from InNvt/MultiSimTest
+[ RUN      ] InNvt/MultiSimTest.ExitsNormally/0
+[       OK ] InNvt/MultiSimTest.ExitsNormally/0 (0 ms)
+[ RUN      ] InNvt/MultiSimTest.ExitsNormallyWithDifferentNumbersOfStepsPerSimulation/0
+[       OK ] InNvt/MultiSimTest.ExitsNormallyWithDifferentNumbersOfStepsPerSimulation/0 (0 ms)
+[----------] 2 tests from InNvt/MultiSimTest (0 ms total)
+
+[----------] 2 tests from WithDifferentControlVariables/ReplicaExchangeEnsembleTest
+[ RUN      ] WithDifferentControlVariables/ReplicaExchangeEnsembleTest.ExitsNormally/0
+[       OK ] WithDifferentControlVariables/ReplicaExchangeEnsembleTest.ExitsNormally/0 (0 ms)
+[ RUN      ] WithDifferentControlVariables/ReplicaExchangeEnsembleTest.ExitsNormally/1
+[       OK ] WithDifferentControlVariables/ReplicaExchangeEnsembleTest.ExitsNormally/1 (0 ms)
+[----------] 2 tests from WithDifferentControlVariables/ReplicaExchangeEnsembleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 25 tests from 9 test cases ran. (48708 ms total)
+[  PASSED  ] 22 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] MimicTest.BondCuts
+[  FAILED  ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/0, where GetParam() = ("spc5", "steep")
+[  FAILED  ] MinimizersWorkWithConstraints/EnergyMinimizationTest.WithinTolerances/1, where GetParam() = ("spc5", "cg")
+
+ 3 FAILED TESTS
+
+
+90% tests passed, 4 tests failed out of 40
+
+Label Time Summary:
+GTest              = 190.53 sec*proc (40 tests)
+IntegrationTest    = 114.75 sec*proc (5 tests)
+MpiTest            =   2.33 sec*proc (3 tests)
+SlowTest           =  10.04 sec*proc (1 test)
+UnitTest           =  65.74 sec*proc (34 tests)
+
+Total Test time (real) = 190.90 sec
+
+The following tests FAILED:
+	 29 - GmxPreprocessTests (Timeout)
+	 37 - MdrunTests (Failed)
+	 38 - MdrunNonIntegratorTests (Failed)
+	 40 - MdrunMpiTests (Failed)
+Errors while running CTest
+make[3]: *** [CMakeFiles/run-ctest-nophys] Error 8
+make[2]: *** [CMakeFiles/run-ctest-nophys.dir/all] Error 2
+make[1]: *** [CMakeFiles/check.dir/rule] Error 2
+make: *** [check] Error 2

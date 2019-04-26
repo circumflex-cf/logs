@@ -1,0 +1,248 @@
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: /opt/ohpc/pub/compiler/gcc/7.3.0/bin/gcc
+-- Check for working C compiler: /opt/ohpc/pub/compiler/gcc/7.3.0/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /opt/ohpc/pub/compiler/gcc/7.3.0/bin/c++
+-- Check for working CXX compiler: /opt/ohpc/pub/compiler/gcc/7.3.0/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: /opt/ohpc/pub/compiler/gcc/7.3.0/bin/gcc
+-- Check for working C compiler: /opt/ohpc/pub/compiler/gcc/7.3.0/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /opt/ohpc/pub/compiler/gcc/7.3.0/bin/c++
+-- Check for working CXX compiler: /opt/ohpc/pub/compiler/gcc/7.3.0/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Performing Test CXXFLAG_STD_CXX0X
+-- Performing Test CXXFLAG_STD_CXX0X - Success
+-- Performing Test CXX11_SUPPORTED
+-- Performing Test CXX11_SUPPORTED - Success
+-- Performing Test CXX11_STDLIB_PRESENT
+-- Performing Test CXX11_STDLIB_PRESENT - Success
+-- Looking for CL_VERSION_2_2
+-- Looking for CL_VERSION_2_2 - not found
+-- Looking for CL_VERSION_2_1
+-- Looking for CL_VERSION_2_1 - not found
+-- Looking for CL_VERSION_2_0
+-- Looking for CL_VERSION_2_0 - not found
+-- Looking for CL_VERSION_1_2
+-- Looking for CL_VERSION_1_2 - found
+-- Found OpenCL: /usr/local/cuda-9.2/lib64/libOpenCL.so (found version "1.2") 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Performing Test CFLAGS_EXCESS_PREC
+-- Performing Test CFLAGS_EXCESS_PREC - Success
+-- Performing Test CFLAGS_COPT
+-- Performing Test CFLAGS_COPT - Success
+-- Performing Test CFLAGS_NOINLINE
+-- Performing Test CFLAGS_NOINLINE - Success
+-- Performing Test CXXFLAGS_EXCESS_PREC
+-- Performing Test CXXFLAGS_EXCESS_PREC - Success
+-- Performing Test CXXFLAGS_COPT
+-- Performing Test CXXFLAGS_COPT - Success
+-- Performing Test CXXFLAGS_NOINLINE
+-- Performing Test CXXFLAGS_NOINLINE - Success
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - found
+-- Looking for include file pwd.h
+-- Looking for include file pwd.h - found
+-- Looking for include file dirent.h
+-- Looking for include file dirent.h - found
+-- Looking for include file time.h
+-- Looking for include file time.h - found
+-- Looking for include file sys/time.h
+-- Looking for include file sys/time.h - found
+-- Looking for include file io.h
+-- Looking for include file io.h - not found
+-- Looking for include file sched.h
+-- Looking for include file sched.h - found
+-- Looking for include file regex.h
+-- Looking for include file regex.h - found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for sysconf
+-- Looking for sysconf - found
+-- Looking for nice
+-- Looking for nice - found
+-- Looking for fsync
+-- Looking for fsync - found
+-- Looking for _fileno
+-- Looking for _fileno - not found
+-- Looking for fileno
+-- Looking for fileno - found
+-- Looking for _commit
+-- Looking for _commit - not found
+-- Looking for sigaction
+-- Looking for sigaction - found
+-- Performing Test HAVE_BUILTIN_CLZ
+-- Performing Test HAVE_BUILTIN_CLZ - Success
+-- Performing Test HAVE_BUILTIN_CLZLL
+-- Performing Test HAVE_BUILTIN_CLZLL - Success
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Looking for feenableexcept in m
+-- Looking for feenableexcept in m - found
+-- Looking for fedisableexcept in m
+-- Looking for fedisableexcept in m - found
+-- Checking for sched.h GNU affinity API
+-- Performing Test sched_affinity_compile
+-- Performing Test sched_affinity_compile - Success
+-- Looking for include file mm_malloc.h
+-- Looking for include file mm_malloc.h - found
+-- Looking for include file malloc.h
+-- Looking for include file malloc.h - found
+-- Looking for include file xmmintrin.h
+-- Looking for include file xmmintrin.h - found
+-- Checking for _mm_malloc()
+-- Checking for _mm_malloc() - supported
+-- Looking for posix_memalign
+-- Looking for posix_memalign - found
+-- Looking for memalign
+-- Looking for memalign - not found
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- MPI is not compatible with thread-MPI. Disabling thread-MPI.
+-- Found MPI_C: /opt/ohpc/pub/mpi/openmpi3-gnu7/3.1.0/lib/libmpi.so (found version "3.1") 
+-- Found MPI_CXX: /opt/ohpc/pub/mpi/openmpi3-gnu7/3.1.0/lib/libmpi_cxx.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1")  
+-- Checking for MPI_IN_PLACE
+-- Performing Test MPI_IN_PLACE_COMPILE_OK
+-- Performing Test MPI_IN_PLACE_COMPILE_OK - Success
+-- Checking for MPI_IN_PLACE - yes
+-- Could NOT find Hwloc (missing: HWLOC_LIBRARIES HWLOC_INCLUDE_DIRS) (Required is at least version "1.5")
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Atomic operations found
+-- Performing Test PTHREAD_SETAFFINITY
+-- Performing Test PTHREAD_SETAFFINITY - Success
+-- Checking for GCC x86 inline asm
+-- Checking for GCC x86 inline asm - supported
+-- Detected build CPU vendor - Intel
+-- Detected build CPU brand - Intel(R) Xeon(R) W-2145 CPU @ 3.70GHz
+-- Detected build CPU family - 6
+-- Detected build CPU model - 85
+-- Detected build CPU stepping - 4
+-- Detected build CPU features - aes apic avx avx2 avx512f avx512cd avx512bw avx512vl clfsh cmov cx8 cx16 f16c fma hle htt intel lahf mmx msr nonstop_tsc pcid pclmuldq pdcm pdpe1gb popcnt pse rdrnd rdtscp rtm sse2 sse3 sse4.1 sse4.2 ssse3 tdt x2apic
+-- Enabling RDTSCP support - detected on the build host
+-- Checking for 64-bit off_t
+-- Checking for 64-bit off_t - present
+-- Checking for fseeko/ftello
+-- Checking for fseeko/ftello - present
+-- Checking for SIGUSR1
+-- Checking for SIGUSR1 - found
+-- Checking for pipe support
+-- Looking for C++ include regex
+-- Looking for C++ include regex - found
+-- Checking for system XDR support
+-- Checking for system XDR support - present
+-- Detecting best SIMD instructions for this CPU
+-- Performing Test C_xCORE_AVX512_qopt_zmm_usage_high_FLAG_ACCEPTED
+-- Performing Test C_xCORE_AVX512_qopt_zmm_usage_high_FLAG_ACCEPTED - Failed
+-- Performing Test C_xCORE_AVX512_FLAG_ACCEPTED
+-- Performing Test C_xCORE_AVX512_FLAG_ACCEPTED - Failed
+-- Performing Test C_mavx512f_mfma_FLAG_ACCEPTED
+-- Performing Test C_mavx512f_mfma_FLAG_ACCEPTED - Success
+-- Performing Test C_mavx512f_mfma_COMPILE_WORKS
+-- Performing Test C_mavx512f_mfma_COMPILE_WORKS - Success
+-- Performing Test CXX_xCORE_AVX512_qopt_zmm_usage_high_FLAG_ACCEPTED
+-- Performing Test CXX_xCORE_AVX512_qopt_zmm_usage_high_FLAG_ACCEPTED - Failed
+-- Performing Test CXX_xCORE_AVX512_FLAG_ACCEPTED
+-- Performing Test CXX_xCORE_AVX512_FLAG_ACCEPTED - Failed
+-- Performing Test CXX_mavx512f_mfma_FLAG_ACCEPTED
+-- Performing Test CXX_mavx512f_mfma_FLAG_ACCEPTED - Success
+-- Performing Test CXX_mavx512f_mfma_COMPILE_WORKS
+-- Performing Test CXX_mavx512f_mfma_COMPILE_WORKS - Success
+-- Detected best SIMD instructions for this CPU - AVX_512
+-- Enabling 512-bit AVX-512 SIMD instructions using CXX flags:  -mavx512f -mfma
+-- Performing Test _callconv___vectorcall
+-- Performing Test _callconv___vectorcall - Failed
+-- Performing Test _callconv___regcall
+-- Performing Test _callconv___regcall - Failed
+-- Performing Test _callconv_ 
+-- Performing Test _callconv_  - Success
+-- The GROMACS-managed build of FFTW 3 will configure with the following optimizations: --enable-sse2;--enable-avx;--enable-avx2;--enable-avx512
+-- Using external FFT library - FFTW3 build managed by GROMACS
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Could NOT find BLAS (missing: BLAS_LIBRARIES) 
+-- Using GROMACS built-in BLAS.
+-- LAPACK requires BLAS
+-- A library with LAPACK API not found. Please specify library location.
+-- Using GROMACS built-in LAPACK.
+-- Checking for dlopen
+-- Performing Test HAVE_DLOPEN
+-- Performing Test HAVE_DLOPEN - Success
+-- Checking for dlopen - found
+-- Using dynamic plugins (e.g VMD-supported file formats)
+-- Checking for suitable VMD version
+-- VMD plugins not found. Path to VMD can be set with VMDDIR.
+-- Using default binary suffix: "_mpi"
+-- Using default library suffix: "_mpi"
+-- Could not convert sample image, ImageMagick convert can not be used
+-- Found PythonInterp: /bin/python2.7 (found suitable version "2.7.5", minimum required is "2.7") 
+-- Performing Test HAS_NO_UNUSED_VARIABLE
+-- Performing Test HAS_NO_UNUSED_VARIABLE - Success
+-- Found PkgConfig: /bin/pkg-config (found version "0.27.1") 
+-- Could NOT find clFFT (missing: clFFT_INCLUDE_DIR clFFT_LIBRARY) 
+-- Performing Test HAS_NO_UNUSED
+-- Performing Test HAS_NO_UNUSED - Success
+-- Performing Test HAS_NO_MISSING_DECL
+-- Performing Test HAS_NO_MISSING_DECL - Success
+-- Performing Test HAS_NO_MISSING_PROTO
+-- Performing Test HAS_NO_MISSING_PROTO - Failed
+-- Performing Test HAS_NO_MSVC_UNUSED
+-- Performing Test HAS_NO_MSVC_UNUSED - Failed
+-- Performing Test HAS_DECL_IN_SOURCE
+-- Performing Test HAS_DECL_IN_SOURCE - Failed
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Configuring done
+CMake Warning:
+  Value of NUMBER_OF_AVX_512_FMA_UNITS contained a newline; truncating
+
+
+-- Generating done
+CMake Warning:
+  Value of NUMBER_OF_AVX_512_FMA_UNITS contained a newline; truncating
+
+
+-- Build files have been written to: /home/madhu/gromacs/gromacs-2019.1/build

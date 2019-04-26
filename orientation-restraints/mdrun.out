@@ -1,0 +1,225 @@
+                      :-) GROMACS - gmx mdrun, 2019.1 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2019.1
+Executable:   /usr/local/gromacs/bin/gmx_mpi
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/madhu/gromacs/gromacs-2019.1/build/tests/regressiontests-2019.1/complex/orientation-restraints
+Command line:
+  gmx_mpi mdrun -notunepme
+
+Reading file topol.tpr, VERSION 2019.1 (single precision)
+Changing nstlist from 10 to 100, rlist from 2 to 2
+
+Using 1 MPI process
+Using 16 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+
+Non-default thread affinity set probably by the OpenMP library,
+disabling internal thread affinity
+starting mdrun 'Protein'
+10 steps,      0.0 ps.
+
+Step 0, time 0 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 4.294235, max 68.045387 (between atoms 534 and 537)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+    497    498   93.8    0.1111   1.6736      0.1111
+    497    499   93.5    0.1111   1.8200      0.1111
+    502    503   92.8    0.1090   2.2194      0.1090
+    522    523   93.2    0.1080   1.9177      0.1080
+    526    527   93.1    0.1080   2.0241      0.1080
+    534    535   93.2    0.1111   2.0033      0.1111
+    534    536   93.4    0.1111   1.8831      0.1111
+    534    537   90.8    0.1111   7.6709      0.1111
+    542    543   92.9    0.1080   2.1245      0.1080
+    903    904   94.4    0.1111   1.4354      0.1111
+    907    908   55.3    0.1111   0.1204      0.1111
+    907    909   91.8    0.1111   3.4421      0.1111
+    907    910   91.8    0.1111   3.5464      0.1111
+    907    910   91.8    0.1111   3.5464      0.1111
+Wrote pdb files with previous and current coordinates
+
+Step 1, time 0.002 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 41.888935, max 680.765503 (between atoms 327 and 328)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+    282    283   91.6    0.0997   3.5334      0.0997
+    327    328   90.1    0.0997  67.9720      0.0997
+    374    375   92.8    0.0976   2.0163      0.0976
+    394    395   91.5    0.1111   4.2806      0.1111
+    394    396   91.5    0.1111   4.3173      0.1111
+    416    417   90.5    0.0997  11.1171      0.0997
+    434    435   90.2    0.1111  29.8616      0.1111
+    434    436   92.8    0.1111   2.2963      0.1111
+    437    438   90.3    0.1111  25.0578      0.1111
+    437    439   92.3    0.1111   2.7831      0.1111
+    455    456  121.7    0.1111   0.2115      0.1111
+    455    457   90.7    0.1111   8.5673      0.1111
+    472    473   99.1    0.1111   0.7058      0.1111
+    472    474   99.1    0.1111   0.7019      0.1111
+    495    496   99.0    0.1080   0.6920      0.1080
+    497    498  114.0    1.6736   0.2728      0.1111
+    497    499   96.0    1.8200   0.1270      0.1111
+    510    511   48.0    0.0997   0.0997      0.0997
+    532    533   35.3    0.1080   0.1080      0.1080
+    534    535   97.5    2.0033   0.8564      0.1111
+    534    536   97.2    1.8831   0.8916      0.1111
+    534    537  101.6    7.6709   0.5504      0.1111
+    540    541  120.8    0.0997   0.1947      0.0997
+    542    543  108.7    2.1245   0.3373      0.1080
+    590    591   94.5    0.0960   1.2347      0.0960
+    717    718   97.7    0.1080   0.8078      0.1080
+    798    799   32.0    0.1040   0.1039      0.1040
+    798    800   38.5    0.1040   0.1039      0.1040
+    806    807   92.9    0.1080   2.1417      0.1080
+    808    809   91.7    0.1111   3.8560      0.1111
+    808    810   93.1    0.1111   2.0379      0.1111
+    824    825   90.8    0.1080   7.8947      0.1080
+    855    856   93.3    0.0997   1.7127      0.0997
+    857    858   96.6    0.1080   0.9341      0.1080
+    859    860   91.1    0.1111   5.6646      0.1111
+    859    861   91.8    0.1111   3.4712      0.1111
+    859    862   91.8    0.1111   3.4626      0.1111
+    879    880   74.8    0.0997   0.0997      0.0997
+    901    902  120.3    0.1080   0.2139      0.1080
+    903    904   37.6    1.4354   0.1111      0.1111
+    905    906  116.9    0.0960   0.2122      0.0960
+    907    908   99.7    0.1204   0.6636      0.1111
+    907    909  112.3    3.4421   0.2917      0.1111
+    907    910  111.3    3.5464   0.3047      0.1111
+    907    910  111.3    3.5464   0.3047      0.1111
+    913    914   41.8    0.0997   0.0997      0.0997
+    959    960   91.1    0.1111   6.0312      0.1111
+    959    961   91.4    0.1111   4.6309      0.1111
+    959    962   90.1    0.1111  52.6658      0.1111
+Wrote pdb files with previous and current coordinates
+
+Step 2, time 0.004 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 73325.203125, max 892730.937500 (between atoms 824 and 825)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+    282    283   95.9    3.5334   0.9657      0.0997
+    284    285  112.3    0.1080   0.2850      0.1080
+    286    287   30.4    0.1111   0.1111      0.1111
+    296    297   92.2    0.1080   0.1123      0.1080
+    298    299   59.7    0.1080   0.1080      0.1080
+    319    320   69.0    0.0960   0.0960      0.0960
+    327    328  107.7   67.9720   0.3272      0.0997
+    329    330   95.5    0.1080   0.1188      0.1080
+    343    344   90.0    0.1040 82482.0469      0.1040
+    343    345   90.0    0.1040 81114.6641      0.1040
+    343    346   90.0    0.1040 78379.1250      0.1040
+    374    375  108.0    2.0163   0.3153      0.0976
+    392    393  112.1    0.1080   0.1561      0.1080
+    394    395  106.4    4.2806   0.3934      0.1111
+    394    396  100.6    4.3173   0.6045      0.1111
+    416    417  104.8   11.1171   0.3907      0.0997
+    418    419   41.8    0.1080   0.1080      0.1080
+    431    432  121.1    0.1111   0.2149      0.1111
+    431    433  119.9    0.1111   0.2227      0.1111
+    434    435  101.0   29.8616   0.5817      0.1111
+    434    436   91.8    2.2963   3.5565      0.1111
+    437    438  101.3   25.0578   0.5677      0.1111
+    437    439   92.0    2.7831   3.1110      0.1111
+    440    441  118.0    0.1000   0.2132      0.1000
+    453    454  114.0    0.1080   0.2652      0.1080
+    455    456  102.0    0.2115   0.5328      0.1111
+    455    457   98.3    8.5673   0.1247      0.1111
+    472    473   35.2    0.7058   0.1111      0.1111
+    472    474   34.5    0.7019   0.1111      0.1111
+    495    496   99.5    0.6920   0.6574      0.1080
+    497    498   94.0    0.2728   1.5735      0.1111
+    497    499   93.4    0.1270   1.8667      0.1111
+    502    503   99.5    0.1090   0.6630      0.1090
+    504    505  113.1    0.1000   0.1467      0.1000
+    510    511   95.0    0.0997   1.1516      0.0997
+    520    521   36.2    0.1080   0.1080      0.1080
+    526    527  112.8    0.1080   0.2790      0.1080
+    532    533  110.5    0.1080   0.3077      0.1080
+    534    535   93.6    0.8564   1.7636      0.1111
+    534    536   93.7    0.8916   1.7194      0.1111
+    534    537   90.9    0.5504   7.3110      0.1111
+    540    541  121.4    0.1947   0.1911      0.0997
+    542    543   92.4    0.3373   2.5333      0.1080
+    550    552   93.3    0.1111   1.9395      0.1111
+    590    591   90.1    1.2347   0.0962      0.0960
+    594    595   98.2    0.1080   0.7561      0.1080
+    717    718   42.5    0.8078   0.1080      0.1080
+    804    805  120.1    0.0997   0.1987      0.0997
+    806    807   76.2    2.1417   0.1080      0.1080
+    808    809  101.6    3.8560   0.5505      0.1111
+    808    810  100.9    2.0379   0.5867      0.1111
+    811    812   66.0    0.0960   0.0960      0.0960
+    824    825   90.0    7.8947 96415.0625      0.1080
+    855    856  101.9    1.7127   0.4845      0.0997
+    857    858   95.9    0.9341   1.0565      0.1080
+    859    860  109.3    5.6646   0.1550      0.1111
+    859    861   98.1    3.4712   0.7849      0.1111
+    859    862   95.7    3.4626   1.1218      0.1111
+    879    880  101.9    0.0997   0.4833      0.0997
+    881    882  110.3    0.1080   0.3114      0.1080
+    883    884   98.7    0.1111   0.7323      0.1111
+    883    885   78.2    0.1111   0.1197      0.1111
+    887    888   99.9    0.1080   0.6262      0.1080
+    901    902  117.7    0.2139   0.1693      0.1080
+    903    904   95.2    0.1111   1.2366      0.1111
+    907    908  115.8    0.6636   0.2557      0.1111
+    907    909   92.1    0.2917   2.9694      0.1111
+    907    910   92.0    0.3047   3.1065      0.1111
+    907    910   92.0    0.3047   3.1065      0.1111
+    913    914   97.3    0.0997   0.7860      0.0997
+    953    954  112.0    0.1111   0.2962      0.1111
+    959    960   90.9    6.0312   6.8401      0.1111
+    959    961   91.1    4.6309   5.5351      0.1111
+    959    962   97.4   52.6658   0.8507      0.1111
+Wrote pdb files with previous and current coordinates
+[helix:58284] *** Process received signal ***
+[helix:58284] Signal: Segmentation fault (11)
+[helix:58284] Signal code: Address not mapped (1)
+[helix:58284] Failing at address: 0xc155440
+[helix:58284] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x7fb13578c5d0]
+[helix:58284] [ 1] /usr/local/gromacs/lib64/libgromacs_mpi.so.4(+0xa673ea)[0x7fb1371e03ea]
+[helix:58284] [ 2] /opt/ohpc/pub/compiler/gcc/7.3.0/lib64/libgomp.so.1(+0x1690e)[0x7fb135bc690e]
+[helix:58284] [ 3] /lib64/libpthread.so.0(+0x7dd5)[0x7fb135784dd5]
+[helix:58284] [ 4] /lib64/libc.so.6(clone+0x6d)[0x7fb1354adead]
+[helix:58284] *** End of error message ***
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node helix exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
